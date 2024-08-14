@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Student Registration form</title>
+  </head>
+  <body>
+    <div class="regform">
+      <form action="" method="">
+        <div class="heading">
+          <img src="std-logo.png" alt="logo">
+          <h1>Student Registration Form</h1>
+          <p>
+            Fill out the form to apply for the training courses. You can
+            consider your application accepted after you receive a confirmation
+            email.
+          </p>
+        </div>
+        <div class="std-reg">
+          <div class="std-info">
+            <label for="student information">Student information</label><br />
+            <input type="text" id="fname" placeholder="First Name" />
+            <input type="text" id="mname" placeholder="Middle Name" />
+            <input type="text" id="lname" placeholder="Last Name" />
+          </div>
+          <div class="std-info">
+            <input type="date" placeholder="Date of Birth" />
+            <input type="number" placeholder="Student Id" />
+          </div>
+          <div class="address">
+            <label for="address"> Address </label>
+            <div>
+              <input type="text" id="address" placeholder=" Street Address" />
+            </div>
+            <div>
+              <input type="text" id="city" placeholder="City" />
+              <input type="text" id="state" placeholder="State / Province" />
+            </div>
+            <div>
+              <input type="text" id="country" placeholder="Country" />
+              <input type="number" id="zipcode" placeholder="ZIP Code" />
+            </div>
+          </div>
+          <div class="contact-info">
+            <label for="contact-info">Contact Information</label>
+            <div>
+                <input type="email" id="email" placeholder="E-mail">
+                <input type="text" id="text">
+            </div>
+          </div>
+          <div class="courses">
+            <label for="courses">Courses <span style="color: red;">*</span></label>
+            <div>
+                <button type="button"> + Add new Record</button>
+            </div>
+            <div>
+                <input type="text" id="courses" placeholder="Courses">
+                <input type="text" id="level" placeholder="Level">
+                <input type="text" id="language" placeholder="Language">
+                <input type="text" id="start-date" placeholder="Start Date">
+            </div>
+          </div>
+          <div>
+            <textarea name="comments" id="" cols="40" rows="15" placeholder="Comments.."></textarea>
+          </div>
+        </div>
+      </form> 
+    </div>
+  </body>
+</html>
