@@ -1,0 +1,27 @@
+.blackbox {
+    color: aliceblue;
+    background-color: black;
+    height: 100px;
+    width: 200px;
+}
+.whitebox{
+    background-color: aqua;
+    height: 50px;
+    width: 70px;
+    /* position: relative;
+    left: 20px;
+    right: 30px; */
+}
+h2{
+    position: relative;
+    left: 50px;
+}
+
+.col p{
+    width: 30%;
+    float: left;
+}
+
+.col p:nth-child(4){
+    clear: left;
+}
