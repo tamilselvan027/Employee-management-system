@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Student Registration form</title>
+  </head>
+  <body>
+    <div class="regform">
+      <div class="header">
+        <div class="main">
+          <div class="logo">
+            <img src="std-logo.png" alt="logo" height="90%" />   
+          </div>     
+
+          <div class="content">
+            <div class="title">
+              <h1>Student Registration Form</h1>
+            </div>
+            <div class="descrip">
+              <p>
+                Fill out the form to apply for the training courses. You can consider your application <br />
+                accepted after you receive a confirmation email.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <form action="" id="form" >
+        <div class="std-reg" >
+          <div class="std-info">
+            <label for="student information">Student information</label><br />
+            <div class="col-1">
+              <div class="input">
+                <input type="text" id="fname" name="fname" placeholder="First Name" />
+                <div class="error"></div>
+              </div>
+              <div class="input">
+                <input type="text" id="mname" name="mname" placeholder="Middle Name" />
+                <div class="error"></div>
+              </div>
+              <div class="input">
+                <input type="text" id="lname" name="lname" placeholder="Last Name" />
+                <div class="error"></div>
+              </div>
+            </div>
+          </div>
+          <div class="std-info-2">
+            <div class="col-2">
+              <div class="input">
+                <input type="date" id="date" />
+                <div class="error"></div>
+              </div>
+              <div class="input" id="col-2ab">
+                <input type="number" id="col-2a" placeholder="Student Id" />
+                <div class="error"></div>
+              </div>
+            </div>
+          </div>
+          <div class="address">
+            <label for="address"> Address </label>
+            <div class="add-row-1">
+              <div class="input">
+                <input type="text" id="address" placeholder=" Street Address" />
+                <div class="error"></div>
+              </div>
+            </div>
+            <div class="add-row-2">
+              <div class="input">
+                <input type="text" id="city" placeholder="City" />
+                <div class="error"></div>
+              </div>
+              <div class="input">
+                <input type="text" id="state" placeholder="State / Province" />
+                <div class="error"></div>
+              </div>
+            </div>
+            <div class="add-row-2">
+              <div class="input">
+                <input type="text" id="country" placeholder="Country" />
+                <div class="error"></div>
+              </div>
+              <div class="input">
+                <input type="number" id="zipcode" placeholder="ZIP Code" />
+                <div class="error"></div>
+              </div>
+            </div>
+          </div>
+          <div class="contact-info">
+            <label for="contact-info">Contact Information</label>
+            <div class="contact-row">
+              <div class="input">
+                <input type="email" id="email" placeholder="E-mail" />
+                <div class="error"></div>
+              </div>
+              <div class="input">
+                <input type="text" id="empty" />
+                <div class="error"></div>
+              </div>
+            </div>
+          </div>
+          <div class="courses">
+            <label for="courses"
+              >Courses <span style="color: red">*</span></label
+            >
+            <div class="courses-input">
+              <div class="button">
+                <button type="button" id="button-1">+ Add new Record</button>
+              </div>
+              <div class="courses-row-2">
+                <div class="input">
+                  <!-- <button class="button-1" onclick="">Courses</button> -->
+                   <select name="course" id="course" autofocus>
+                    <option value="" disabled selected> Course </option>
+                    <option value="fullstack-developer"> Fullstack developer</option> 
+                    <option value="data-analysics"> Data analysics</option>
+                    <option value="mernstack-developer"> MERNstack-developer</option>
+                    <option value="testing "> Testing </option>
+                    <option value="adminstrative"> Adminstrative </option>
+                   </select>
+                </div>
+                <div class="input">
+                  <!-- <button class="button-1" onclick="">level</button> -->
+                  <select name="course" id="level" autofocus>
+                    <option value="" disabled selected> Level </option>
+                    <option value="beginner"> Beginner </option> 
+                    <option value="intermidiate"> Intermidiate </option>
+                    <option value="Advance"> Advance </option>
+                   </select>
+                </div>
+                <div class="input">
+                  <!-- <button class="button-1" onclick="">Language</button> -->
+                  <select name="course" id="language" autofocus>
+                    <option value="" disabled selected> Language </option>
+                    <option value="tamil"> Tamil </option> 
+                    <option value="english"> English </option>
+                    <option value="kannada"> Kannada </option>
+                    <option value="malayalam"> Malayalam </option>
+                   </select>
+                </div>
+                <div class="input">
+                  <!-- <button class="button-1" onclick="">Start Date</button> -->
+                  <select name="course" id="start-date" autofocus>
+                    <option value="" disabled selected> Start Date </option>
+                    <option value="immediate"> Immediate </option> 
+                    <option value="15-days"> Less than 15 days </option>
+                    <option value="1-month"> Within 1 Month </option>
+                   </select>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="comments">
+            <textarea
+              name="comments"
+              id=""
+              cols="40"
+              rows="15"
+              placeholder="Comments.."
+            ></textarea>
+          </div>
+          <div class="register">
+            <button type="submit" value="submit" class="btn">Register</button>
+          </div>
+        </div>
+      </form>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

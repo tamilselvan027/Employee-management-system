@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="app.js"></script>
+    <title>Form Validation</title>
+</head>
+<!-- onsubmit="validate()" -->
+<body>
+    <form action="" id="form" >
+        <h2>Signup Form</h2>
+        <div class="form-group fullname">
+          <label for="fullname">Full Name</label>
+          <input type="text" id="fullname" name="fullname" placeholder="Enter your full name">
+          <div class="error"></div>
+        </div>
+        <div class="form-group email">
+          <label for="email">Email Address</label>
+          <input type="text" id="email" placeholder="Enter your email address">
+          <div class="error"></div>
+        </div>
+        <div class="form-group password">
+          <label for="password">Password</label>
+          <input type="password" id="password" placeholder="Enter your password">
+          <div class="error"></div>
+        </div>
+        <div class="form-group date">
+          <label for="date">Birth Date</label>
+          <input type="date" id="date" placeholder="Select your date">
+          <div class="error"></div>
+        </div>
+        <div class="form-group submit-btn">
+          <input type="submit" value="Submit">
+        </div>
+    </form>
+</body>
+</html>
