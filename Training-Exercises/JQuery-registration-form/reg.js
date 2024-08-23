@@ -11,7 +11,8 @@ $(document).ready(function () {
         const date = $('#date').val();
 
         const regex =/^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-
+        const upperName = /[A-Z]+/;
+        const numName = /[0-9]+/;
         // validate for date
         const today = new Date();
         const selectedDate = new Date(date);
@@ -88,13 +89,22 @@ $(document).ready(function () {
              $('#email').css('border', '1px solid green');
         }
 
+        
         // password validation
         if(password === ''){
             $('.passerror').text('Enter your password');
             $('.passerror').css('color' , 'red');
             $('#password').css('border', '1px solid red');
-        } else if (password.length < 8 ){
+        } else if (password.length < 8){
             $('.passerror').text('Password must be in 8 letters');
+            $('.passerror').css('color' , 'red');
+            $('#password').css('border', '1px solid red');
+        } else if (!upperName.test(password)){
+            $('.passerror').text('Password must be in 1 uppercase letter');
+            $('.passerror').css('color' , 'red');
+            $('#password').css('border', '1px solid red');
+        } else if (!numName.test(password)){
+            $('.passerror').text('Password must be in 1 number');
             $('.passerror').css('color' , 'red');
             $('#password').css('border', '1px solid red');
         } else{
