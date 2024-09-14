@@ -1,0 +1,30 @@
+@{
+    ViewBag.Title = "Login";
+    if (TempData["ErrorMessage"] != null)
+    {
+        <script>
+                    alert("@TempData["ErrorMessage"]");
+        </script>
+    }
+}
+
+
+--home page
+
+@{
+    ViewBag.Title = "About";
+}
+<main aria-labelledby="title">
+    <h2 id="title">@ViewBag.Title.</h2>
+    <h3>@ViewBag.Message</h3>
+
+    <p> @ViewBag.AlertMsg</p>
+    <p>Use this area to provide additional information.</p>
+</main>
+
+@*@if (!string.IsNullOrEmpty(ViewBag.Message))
+{
+    <script type="text/javascript">
+        alert("@ViewBag.Message");
+    </script>
+}*@

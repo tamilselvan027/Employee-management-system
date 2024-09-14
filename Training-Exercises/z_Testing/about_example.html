@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="about_example.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Contact Us</h1>
+
+    <div class="section">
+        <h2>Get in Touch</h2>
+        <p>We’d love to hear from you! Whether you have a question, feedback, or need support, please reach out to us using the contact form below or through our contact details.</p>
+    
+        <form method="post" action="/Contact/Submit">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required />
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required />
+            </div>
+            <div class="form-group">
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" required />
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+            </div>
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+    
+    <div class="section">
+        <h2>Contact Information</h2>
+        <p>Email: <a href="mailto:info@yourcompany.com">info@yourcompany.com</a></p>
+        <p>Phone: (123) 456-7890</p>
+        <p>Address: 123 Business Rd, Suite 456, City, Country</p>
+    </div>
+    
+    <!-- Optional: Include a map if you have a physical location -->
+    <div class="section">
+        <h2>Our Location</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.267235407138!2d-122.08384768468308!3d37.3860517798251!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb8e6b8f063d7%3A0x3c77dd11e8a5cb6e!2sGoogleplex!5e0!3m2!1sen!2sus!4v1614694393547!5m2!1sen!2sus" width="600" height="450" style="border: 2px solid black;" allowfullscreen="" loading="lazy"></iframe>
+    </div>    
+</body>
+</html>
+
+

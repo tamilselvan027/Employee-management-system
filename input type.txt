@@ -1,0 +1,8 @@
+@Html.TextBox("phone", null, new { id = "phone", type = "number", placeholder = "Phone number" })
+
+
+Explanation:
+
+"phone": The name of the form field, which is also the name attribute of the <input> tag.
+null: The initial value of the text box. In this case, it is set to null because no default value is provided.
+new { id = "phone", type = "number", placeholder = "Phone number" }: An anonymous object specifying additional HTML attributes.

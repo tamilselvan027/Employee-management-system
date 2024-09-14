@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Admin\\Documents\\Claysys-Training-Exercises\\Project\\Employee-Management-System\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F0AA0286-6FBC-4394-A7DD-4621B64D15E1}|Employee-Management-System.csproj|c:\\users\\admin\\documents\\claysys-training-exercises\\project\\employee-management-system\\views\\leave\\leavepage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F0AA0286-6FBC-4394-A7DD-4621B64D15E1}|Employee-Management-System.csproj|solutionrelative:views\\leave\\leavepage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0AA0286-6FBC-4394-A7DD-4621B64D15E1}|Employee-Management-System.csproj|c:\\users\\admin\\documents\\claysys-training-exercises\\project\\employee-management-system\\views\\leave\\getleavestatus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F0AA0286-6FBC-4394-A7DD-4621B64D15E1}|Employee-Management-System.csproj|solutionrelative:views\\leave\\getleavestatus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0AA0286-6FBC-4394-A7DD-4621B64D15E1}|Employee-Management-System.csproj|c:\\users\\admin\\documents\\claysys-training-exercises\\project\\employee-management-system\\views\\shared\\adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F0AA0286-6FBC-4394-A7DD-4621B64D15E1}|Employee-Management-System.csproj|solutionrelative:views\\shared\\adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0AA0286-6FBC-4394-A7DD-4621B64D15E1}|Employee-Management-System.csproj|c:\\users\\admin\\documents\\claysys-training-exercises\\project\\employee-management-system\\views\\shared\\homelayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F0AA0286-6FBC-4394-A7DD-4621B64D15E1}|Employee-Management-System.csproj|solutionrelative:views\\shared\\homelayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0AA0286-6FBC-4394-A7DD-4621B64D15E1}|Employee-Management-System.csproj|c:\\users\\admin\\documents\\claysys-training-exercises\\project\\employee-management-system\\views\\shared\\userlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F0AA0286-6FBC-4394-A7DD-4621B64D15E1}|Employee-Management-System.csproj|solutionrelative:views\\shared\\userlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0AA0286-6FBC-4394-A7DD-4621B64D15E1}|Employee-Management-System.csproj|c:\\users\\admin\\documents\\claysys-training-exercises\\project\\employee-management-system\\controllers\\adminleavecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0AA0286-6FBC-4394-A7DD-4621B64D15E1}|Employee-Management-System.csproj|solutionrelative:controllers\\adminleavecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LeavePage.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\Claysys-Training-Exercises\\Project\\Employee-Management-System\\Views\\Leave\\LeavePage.cshtml",
+              "RelativeDocumentMoniker": "Views\\Leave\\LeavePage.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\Claysys-Training-Exercises\\Project\\Employee-Management-System\\Views\\Leave\\LeavePage.cshtml",
+              "RelativeToolTip": "Views\\Leave\\LeavePage.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-13T13:15:37.547Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GetLeaveStatus.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\Claysys-Training-Exercises\\Project\\Employee-Management-System\\Views\\Leave\\GetLeaveStatus.cshtml",
+              "RelativeDocumentMoniker": "Views\\Leave\\GetLeaveStatus.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\Claysys-Training-Exercises\\Project\\Employee-Management-System\\Views\\Leave\\GetLeaveStatus.cshtml",
+              "RelativeToolTip": "Views\\Leave\\GetLeaveStatus.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-13T13:15:34.479Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\Claysys-Training-Exercises\\Project\\Employee-Management-System\\Views\\Shared\\HomeLayout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\HomeLayout.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\Claysys-Training-Exercises\\Project\\Employee-Management-System\\Views\\Shared\\HomeLayout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\HomeLayout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-13T13:15:11.706Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\Claysys-Training-Exercises\\Project\\Employee-Management-System\\Views\\Shared\\UserLayout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\UserLayout.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\Claysys-Training-Exercises\\Project\\Employee-Management-System\\Views\\Shared\\UserLayout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\UserLayout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-13T13:14:50.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AdminLeaveController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\Claysys-Training-Exercises\\Project\\Employee-Management-System\\Controllers\\AdminLeaveController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminLeaveController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\Claysys-Training-Exercises\\Project\\Employee-Management-System\\Controllers\\AdminLeaveController.cs",
+              "RelativeToolTip": "Controllers\\AdminLeaveController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T12:35:25.726Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AdminLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\Claysys-Training-Exercises\\Project\\Employee-Management-System\\Views\\Shared\\AdminLayout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\AdminLayout.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\Claysys-Training-Exercises\\Project\\Employee-Management-System\\Views\\Shared\\AdminLayout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\AdminLayout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-13T12:34:38.32Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

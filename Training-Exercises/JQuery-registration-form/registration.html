@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registration Form</title>
-    <link rel="stylesheet" href="regis.css">
+    <link rel="stylesheet" href="registration.css">
     <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
-    <script src="reg.js"></script>
+    <script src="registration.js"></script>
 </head>
 <body>
     <div class="container">
@@ -14,9 +14,14 @@
             <h2> Registration Form </h2>
             <div class="reg">
                 <div class="form-group">
-                    <label for="username"> Username </label>
-                    <input type="text" id="username" name="username" placeholder="Enter your Username">
-                    <div class="nameerror" id="errr"></div>
+                    <label for="firstname"> Firstname </label>
+                    <input type="text" id="firstname" name="firstname" placeholder="Enter your firstname">
+                    <div class="fnameerror" id="errr"></div>
+                </div>
+                <div class="form-group">
+                    <label for="lastname"> Lastname </label>
+                    <input type="text" id="lastname" name="lastname" placeholder="Enter your lastname">
+                    <div class="lnameerror" id="errr"></div>
                 </div>
                 <div class="form-group">
                     <label for="phone"> Phone </label>
@@ -31,6 +36,8 @@
                         <label for="male">Male</label>
                         <input type="radio" id="female" name="gender" value="female">
                         <label for="female">Female</label>
+                        <input type="radio" id="others" name="gender" value="others">
+                        <label for="others">Others</label>
                         <div class="gendererror" id="errr"></div>
                     </div>
                     </div>
@@ -42,8 +49,18 @@
                 </div>
                 <div class="form-group">
                     <label for="email"> Email </label>
-                    <input type="email" id="email" name="email" placeholder="Enter your email address">
+                      <input type="email" id="email" name="email" placeholder="Enter your email address">
                     <div class="emailerror" id="errr"></div>
+                </div>
+                <div class="form-group">
+                    <label for="employeeid"> Employee ID</label>
+                      <input type="number" id="employeeid" name="employeeid" placeholder="Enter your employee ID">
+                    <div class="employeeiderror" id="errr"></div>
+                </div>
+                <div class="form-group">
+                    <label for="username"> Username </label>
+                    <input type="text" id="username" name="username" placeholder="Enter your Username">
+                    <div class="nameerror" id="errr"></div>
                 </div>
                 <div class="form-group">
                     <label for="password"> Password </label>
@@ -55,7 +72,7 @@
                     <input type="password" id="cpassword" name="cpassword" placeholder="Enter your confirm password">
                     <div class="conerror" id="errr"></div>
                 </div>
-                <div class="btn">
+                <div class="btn"> 
                     <button id="submitButton" name="submitbutton">Register</button>
                 </div>
             </div>

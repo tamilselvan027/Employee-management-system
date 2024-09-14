@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form
+id="form" 
+name="contact" 
+method="POST" 
+data-netlify="true"
+data-netlify-recaptcha="true">
+
+<label for=""> email</label>
+<input type="text">
+
+<input type="submit" value="submit">
+<div class="submit-success" data-submit=""><p>Message sent!🎉</p></div>
+<div class="submit-error" data-submit=""><p>Error.</p></div>
+</form>
+<script>
+const form = document.getElementById('form');
+
+  form.addEventListener('submit', () => {
+
+    console.log("test--")
+    validateInput();
+})
+const validateInput = (e) => {
+  e.preventDefault();
+  let myForm = document.getElementById("form");
+  myForm.classList.add('data-submit', success);
+
+//   const inputControl = element.parentElement;
+    // const errorDisplay = inputControl.querySelector('.error');
+
+    // errorDisplay.innerText = '';
+    // myForm.classList.add('data-submit', success);
+    // myForm.classList.remove('data-submit', error);
+    
+    // then(() => { submitSuccess.setAttribute('data-submit', success); })
+    // catch((error) => { submitError.setAttribute('data-submit', error) });
+};
+</script>
+</body>
+</html>

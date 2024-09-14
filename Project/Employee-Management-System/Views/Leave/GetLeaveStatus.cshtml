@@ -1,0 +1,143 @@
+﻿@*@model Employee_Management_System.Models.Leave*@
+@*@model IEnumerable<Employee_Management_System.Models.Leave>*@
+@model Employee_Management_System.Models.LeaveView
+
+@{
+    ViewBag.Title = "GetLeaveStatus";
+    Layout = "~/Views/Shared/UserLayout.cshtml";
+
+}
+<link href="~/Content/CSS/GetLeaveDetailsPage.css" rel="stylesheet" />
+<div class="leave-balence">
+    <h4> </h4>
+    <hr />
+
+    @*Add button*@
+    <div class="add-btn">
+        @using (Html.BeginForm("LeavePage", "Leave", FormMethod.Get))
+        {
+            <button type="submit">+ Apply leave</button>
+        }
+    </div>
+
+
+    <div class="table">
+        <table class="table-content">
+            <thead>
+                <tr>
+                    <th colspan="4" id="heading">@ViewBag.UserName 2024 Leave balance</th>
+                </tr>
+                <tr>
+                    <th>Leave category</th>
+                    <th>Leave taken</th>
+                    <th>Leave remaining</th>
+                    <th>Overall</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Casual</td>
+                    <td>@Html.DisplayFor(model => model.SingleLeave.CasualLeaveCount)</td>
+                    @{
+                        int remainingCasualLeave = (int)Model.SingleLeave.TotalCasualLeave - (int)Model.SingleLeave.CasualLeaveCount;
+                    }
+                    <td>@remainingCasualLeave</td>
+                    <td>@Html.DisplayFor(model => model.SingleLeave.TotalCasualLeave)</td>
+                </tr>
+                <tr>
+                    <td>Sick</td>
+                    <td>@Html.DisplayFor(model => model.SingleLeave.SickLeaveCount)</td>
+                    @{
+                        int remainingSickLeave = (int)Model.SingleLeave.TotalSickLeave - (int)Model.SingleLeave.SickLeaveCount;
+                    }
+                    <td>@remainingSickLeave</td>
+                    <td>@Html.DisplayFor(model => model.SingleLeave.TotalSickLeave)</td>
+                </tr>
+                <tr>
+                    <td>Optional</td>
+                    <td>@Html.DisplayFor(model => model.SingleLeave.OptionalLeaveCount)</td>
+                    @{
+                        int remainingOptionalSickLeave = (int)Model.SingleLeave.TotalOptionalLeave - (int)Model.SingleLeave.OptionalLeaveCount;
+                    }
+                    <td>@remainingOptionalSickLeave</td>
+                    <td>@Html.DisplayFor(model => model.SingleLeave.TotalOptionalLeave)</td>
+                </tr>
+                <tr>
+                    <td>Vacation</td>
+                    <td>@Html.DisplayFor(model => model.SingleLeave.VacationLeaveCount)</td>
+                    @{
+                        int remainingVactionSickLeave = (int)Model.SingleLeave.TotalVacationLeave - (int)Model.SingleLeave.VacationLeaveCount;
+                    }
+                    <td>@remainingVactionSickLeave</td>
+                    <td>@Html.DisplayFor(model => model.SingleLeave.TotalVacationLeave)</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <h2 class="history">Leave Hisotry</h2>
+
+    <div class="table">
+        <table class="table-content">
+            <thead>
+                <tr>
+                    <th>
+                        Employee Id
+                    </th>
+                    <th>
+                        Leave type
+                    </th>
+                    <th>
+                        Start date
+                    </th>
+                    <th>
+                        End date
+                    </th>
+                    <th>
+                        Leave count
+                    </th>
+                    <th>
+                        Leave status
+                    </th>
+                    <th>
+                        Remarks
+                    </th>
+                </tr>
+            </thead>
+
+
+            @foreach (var item in Model.LeaveHistoryList)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.EmployeeId)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.LeaveType)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.StartDate)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.EndDate)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.LeaveCount)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.LeaveStatus)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Remarks)
+                    </td>
+                </tr>
+            }
+
+        </table>
+    </div>
+</div>
+
+@if (ViewBag.ErrorMessage != null)
+{
+    <p>@ViewBag.ErrorMessage</p>
+}

@@ -1,0 +1,61 @@
+
+---About page style----
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 8PX;
+}
+.aboutus{
+    text-align: center;
+}
+.content>h3{
+    text-align: center;
+    /* justify-content: center; */
+    margin-bottom: 15px;
+}
+.paragraph{
+    width: 80%;
+    position: relative;
+    /* justify-content: center; */
+    left: 10%;
+}
+.images{
+    margin: 5px;
+}
+.images>img{
+    padding: 5px;
+    height:"250px";
+    width:"250px";
+}
+
+/* .section {
+    margin: 20px 0;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+} */
+
+

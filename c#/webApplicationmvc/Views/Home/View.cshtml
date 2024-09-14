@@ -1,0 +1,29 @@
+﻿
+@{
+    Layout = null;
+    var emploee = ViewBag.result;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>View</title>
+</head>
+<body>
+    <div>
+        @{
+            foreach (var item in emploee)
+            {
+                <h4>@item.Id </h4> 
+                <h4>@item.FirstName </h4>
+                <h4>@item.LastName </h4>
+                <h4>@item.Department </h4>
+                <h4>@item.DepartmentId </h4>
+
+                }
+         }
+        </div>
+</body>
+</html>

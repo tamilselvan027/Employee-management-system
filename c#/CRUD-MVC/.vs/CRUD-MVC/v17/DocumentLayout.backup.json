@@ -1,0 +1,102 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Admin\\Documents\\Claysys-Training-Exercises\\c#\\CRUD-MVC\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A8EE4B93-EAF9-4EE8-924F-D89A346DA3B4}|CRUD-MVC.csproj|c:\\users\\admin\\documents\\claysys-training-exercises\\c#\\crud-mvc\\repositary\\registrationrepositary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8EE4B93-EAF9-4EE8-924F-D89A346DA3B4}|CRUD-MVC.csproj|solutionrelative:repositary\\registrationrepositary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8EE4B93-EAF9-4EE8-924F-D89A346DA3B4}|CRUD-MVC.csproj|C:\\Users\\Admin\\Documents\\Claysys-Training-Exercises\\c#\\CRUD-MVC\\controllers\\registrationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8EE4B93-EAF9-4EE8-924F-D89A346DA3B4}|CRUD-MVC.csproj|solutionrelative:controllers\\registrationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8EE4B93-EAF9-4EE8-924F-D89A346DA3B4}|CRUD-MVC.csproj|C:\\Users\\Admin\\Documents\\Claysys-Training-Exercises\\c#\\CRUD-MVC\\views\\registration\\getalldetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A8EE4B93-EAF9-4EE8-924F-D89A346DA3B4}|CRUD-MVC.csproj|solutionrelative:views\\registration\\getalldetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8EE4B93-EAF9-4EE8-924F-D89A346DA3B4}|CRUD-MVC.csproj|C:\\Users\\Admin\\Documents\\Claysys-Training-Exercises\\c#\\CRUD-MVC\\views\\registration\\editdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A8EE4B93-EAF9-4EE8-924F-D89A346DA3B4}|CRUD-MVC.csproj|solutionrelative:views\\registration\\editdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8EE4B93-EAF9-4EE8-924F-D89A346DA3B4}|CRUD-MVC.csproj|C:\\Users\\Admin\\Documents\\Claysys-Training-Exercises\\c#\\CRUD-MVC\\views\\registration\\addregistrationdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A8EE4B93-EAF9-4EE8-924F-D89A346DA3B4}|CRUD-MVC.csproj|solutionrelative:views\\registration\\addregistrationdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RegistrationController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\Claysys-Training-Exercises\\c#\\CRUD-MVC\\Controllers\\RegistrationController.cs",
+              "RelativeDocumentMoniker": "Controllers\\RegistrationController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\Claysys-Training-Exercises\\c#\\CRUD-MVC\\Controllers\\RegistrationController.cs",
+              "RelativeToolTip": "Controllers\\RegistrationController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAkwBEAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T12:26:13.092Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GetAllDetails.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\Claysys-Training-Exercises\\c#\\CRUD-MVC\\Views\\Registration\\GetAllDetails.cshtml",
+              "RelativeDocumentMoniker": "Views\\Registration\\GetAllDetails.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\Claysys-Training-Exercises\\c#\\CRUD-MVC\\Views\\Registration\\GetAllDetails.cshtml",
+              "RelativeToolTip": "Views\\Registration\\GetAllDetails.cshtml",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAD0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-07T09:59:16.409Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EditDetails.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\Claysys-Training-Exercises\\c#\\CRUD-MVC\\Views\\Registration\\EditDetails.cshtml",
+              "RelativeDocumentMoniker": "Views\\Registration\\EditDetails.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\Claysys-Training-Exercises\\c#\\CRUD-MVC\\Views\\Registration\\EditDetails.cshtml",
+              "RelativeToolTip": "Views\\Registration\\EditDetails.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-05T12:55:53.068Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AddRegistrationDetails.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\Claysys-Training-Exercises\\c#\\CRUD-MVC\\Views\\Registration\\AddRegistrationDetails.cshtml",
+              "RelativeDocumentMoniker": "Views\\Registration\\AddRegistrationDetails.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\Claysys-Training-Exercises\\c#\\CRUD-MVC\\Views\\Registration\\AddRegistrationDetails.cshtml",
+              "RelativeToolTip": "Views\\Registration\\AddRegistrationDetails.cshtml",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAAACsAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-04T05:09:16.394Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RegistrationRepositary.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\Claysys-Training-Exercises\\c#\\CRUD-MVC\\Repositary\\RegistrationRepositary.cs",
+              "RelativeDocumentMoniker": "Repositary\\RegistrationRepositary.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\Claysys-Training-Exercises\\c#\\CRUD-MVC\\Repositary\\RegistrationRepositary.cs",
+              "RelativeToolTip": "Repositary\\RegistrationRepositary.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAwwBAAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T10:17:09.382Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
