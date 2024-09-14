@@ -1,0 +1,37 @@
+﻿footer {
+    position: relative;
+}
+.table {
+/*    width: 70%;*/
+    margin-top: 40px;
+    margin-left: 200px;
+    margin-bottom: 35px;
+}
+.table-content {
+    width: 70vw;
+    top: 200px;
+    border-collapse: collapse;
+}
+td, th {
+    text-align: center;
+    padding: 8px;
+}
+
+thead {
+    background-color: rgb(93, 93, 211);
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: rgba(39, 36, 36, .1);
+}
+
+tr:hover td {
+    cursor: pointer;
+    color: #0298cf;
+    background-color: aliceblue;
+}
+
+.deptid{
+    display:none;
+}

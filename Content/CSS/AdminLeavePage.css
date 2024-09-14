@@ -1,0 +1,66 @@
+﻿footer {
+    position: relative;
+}
+
+.table {
+    width: 90%;
+    margin-top: 40px;
+    margin-left: 110px;
+    margin-bottom: 35px;
+}
+
+.table-content {
+    width: 90%;
+    top: 200px;
+    border-collapse: collapse;
+}
+
+td, th {
+    text-align: center;
+    padding: 8px;
+}
+thead {
+    position: sticky;
+    top: 0;
+    background-color: rgb(93, 93, 211);
+    color: white;
+}
+tr:nth-child(even) {
+    background-color: rgba(39, 36, 36, .1);
+}
+tr:hover td {
+    cursor: pointer;
+    color: #0298cf;
+    background-color: aliceblue;
+}
+
+button {
+    outline: none;
+    border: none;
+    width: 220px;
+    padding: 9px;
+    background-color: rgb(9, 9, 126);
+    border-radius: 5px;
+    color: white;
+}
+
+.add-btn {
+    margin-left: 920px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    width: 20px;
+}
+
+    .add-btn:hover {
+        opacity: 0.7;
+    }
+
+td > a {
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#links {
+    display: flex;
+}

@@ -1,0 +1,44 @@
+﻿@model Employee_Management_System.Models.Login
+@{
+    Layout = "~/Views/Shared/HomeLayout.cshtml";
+    //Layout = null;
+    if (TempData["AlertMessage"] != null)
+    {
+        <script>
+            alert("@TempData["AlertMessage"]");
+        </script>
+    }
+
+}
+
+
+<link href="~/Content/CSS/LoginForm.css" rel="stylesheet" />
+<script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+@*<script src="~/Scripts/JavaScript/LoginForm.js"></script>*@
+@using (Html.BeginForm())
+{
+
+    @Html.AntiForgeryToken()
+
+    <h2>Login Form</h2>
+    <div class="form-group email">
+        @Html.LabelFor(model => model.Username)
+        @Html.TextBox("username", "", new { placeholder = "User name" })
+        <div class="nameerr" id="err"></div>
+    </div>
+    <div class="form-group password">
+        @Html.LabelFor(model => model.Password)
+        @Html.TextBox("password", "", new { type = "password", placeholder = "Password", @class = "form-control" })
+        @*@Html.TextBox("password", "", new { placeholder = "Password" })*@
+        <div class="error" id="err"></div>
+    </div>
+    @Html.ActionLink("Forgot password ?", "", "", htmlAttributes: new { @id = "action-link", @class = "action-link" })
+    <div class="form-group submit-btn">
+        <input type="submit" id="submitButton" value="Login">
+    </div>
+
+    <div class="singup">
+        <p>Don't have an account? @Html.ActionLink("Register now ", "AddRegistrationPage", "Registration", "", htmlAttributes: new { @id = "action-link" })</p>
+    </div>
+
+}

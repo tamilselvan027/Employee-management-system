@@ -1,0 +1,58 @@
+﻿@model IEnumerable<Employee_Management_System.Models.Departments>
+
+@{
+    ViewBag.Title = "GetDepartments";
+    Layout = "~/Views/Shared/AdminLayout.cshtml";
+}
+<link href="~/Content/CSS/DepartmentPage.css" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+
+<div class="table">
+    <table class="table-content">
+        <thead>
+            <tr>
+                <th class="deptid">
+                    @Html.DisplayNameFor(model => model.DepartmentID)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.DepartmentName)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.DepartmentHead)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.EmployeeCount)
+                </th>
+                <th></th>
+
+            </tr>
+        </thead>
+
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td class="deptid">
+                    @Html.DisplayFor(modelItem => item.DepartmentID)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DepartmentName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DepartmentHead)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.EmployeeCount)
+                </td>
+                <td id="links">
+                    <a href="@Url.Action("EditDetails", "Admin", new { id = item.DepartmentID })">
+                        <i class="fa-solid fa-pen-to-square"></i>
+                    </a>
+                </td>
+            </tr>
+        }
+
+    </table>
+</div>
+
