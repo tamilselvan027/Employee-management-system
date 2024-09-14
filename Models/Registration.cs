@@ -8,6 +8,7 @@ namespace Employee_Management_System.Models
 {
     public class Registration
     {
+        [Required]
         [Display(Name = "Employee ID")]
         public int EmployeeID { get; set; }
 
@@ -58,10 +59,6 @@ namespace Employee_Management_System.Models
         public string EmployeeType { get; set; }
 
         [Required]
-        [Display(Name = "Salery")]
-        public int Salery { get; set; }
-
-        [Required]
         [Display(Name = "Username")]
         public string UserName { get; set; }
 
@@ -78,6 +75,7 @@ namespace Employee_Management_System.Models
         [Required]
         [Display(Name = "UserType")]
         public string UserType { get; set; }
+
         public string DeleteStatus { get; set; }
     }
 }

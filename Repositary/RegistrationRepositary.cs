@@ -37,7 +37,6 @@ namespace Employee_Management_System.Repositary
                 command.Parameters.AddWithValue("@HireDate", obj.HireDate);
                 command.Parameters.AddWithValue("@DepartmentName", obj.DepartmentName);
                 command.Parameters.AddWithValue("@EmployeeType", obj.EmployeeType);
-                command.Parameters.AddWithValue("@Salery", obj.Salery);
                 command.Parameters.AddWithValue("@UserName", obj.UserName);
                 command.Parameters.AddWithValue("@password", obj.Password);
                 command.Parameters.AddWithValue("@UserType", "user");

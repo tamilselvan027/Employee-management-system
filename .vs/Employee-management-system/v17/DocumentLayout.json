@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Admin\\Desktop\\Employee-management-system\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F0AA0286-6FBC-4394-A7DD-4621B64D15E1}|Employee-Management-System.csproj|c:\\users\\admin\\desktop\\employee-management-system\\content\\css\\registrationform.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{F0AA0286-6FBC-4394-A7DD-4621B64D15E1}|Employee-Management-System.csproj|solutionrelative:content\\css\\registrationform.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0AA0286-6FBC-4394-A7DD-4621B64D15E1}|Employee-Management-System.csproj|c:\\users\\admin\\desktop\\employee-management-system\\views\\registration\\addregistrationpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F0AA0286-6FBC-4394-A7DD-4621B64D15E1}|Employee-Management-System.csproj|solutionrelative:views\\registration\\addregistrationpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0AA0286-6FBC-4394-A7DD-4621B64D15E1}|Employee-Management-System.csproj|c:\\users\\admin\\desktop\\employee-management-system\\scripts\\javascript\\registrationform.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{F0AA0286-6FBC-4394-A7DD-4621B64D15E1}|Employee-Management-System.csproj|solutionrelative:scripts\\javascript\\registrationform.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0AA0286-6FBC-4394-A7DD-4621B64D15E1}|Employee-Management-System.csproj|c:\\users\\admin\\desktop\\employee-management-system\\repositary\\registrationrepositary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0AA0286-6FBC-4394-A7DD-4621B64D15E1}|Employee-Management-System.csproj|solutionrelative:repositary\\registrationrepositary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0AA0286-6FBC-4394-A7DD-4621B64D15E1}|Employee-Management-System.csproj|c:\\users\\admin\\desktop\\employee-management-system\\models\\registration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0AA0286-6FBC-4394-A7DD-4621B64D15E1}|Employee-Management-System.csproj|solutionrelative:models\\registration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RegistrationForm.css",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Employee-management-system\\Content\\CSS\\RegistrationForm.css",
+              "RelativeDocumentMoniker": "Content\\CSS\\RegistrationForm.css",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Employee-management-system\\Content\\CSS\\RegistrationForm.css",
+              "RelativeToolTip": "Content\\CSS\\RegistrationForm.css",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAIwHUAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-09-14T08:50:23.922Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Registration.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Employee-management-system\\Models\\Registration.cs",
+              "RelativeDocumentMoniker": "Models\\Registration.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Employee-management-system\\Models\\Registration.cs",
+              "RelativeToolTip": "Models\\Registration.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAYwDoAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T08:25:51.068Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RegistrationRepositary.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Employee-management-system\\Repositary\\RegistrationRepositary.cs",
+              "RelativeDocumentMoniker": "Repositary\\RegistrationRepositary.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Employee-management-system\\Repositary\\RegistrationRepositary.cs",
+              "RelativeToolTip": "Repositary\\RegistrationRepositary.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAkwCYAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T08:25:39.949Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AddRegistrationPage.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Employee-management-system\\Views\\Registration\\AddRegistrationPage.cshtml",
+              "RelativeDocumentMoniker": "Views\\Registration\\AddRegistrationPage.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Employee-management-system\\Views\\Registration\\AddRegistrationPage.cshtml",
+              "RelativeToolTip": "Views\\Registration\\AddRegistrationPage.cshtml",
+              "ViewState": "AgIAACMAAAAAAAAAAAAAADEAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-14T05:23:24.4Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RegistrationForm.js",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Employee-management-system\\Scripts\\JavaScript\\RegistrationForm.js",
+              "RelativeDocumentMoniker": "Scripts\\JavaScript\\RegistrationForm.js",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Employee-management-system\\Scripts\\JavaScript\\RegistrationForm.js",
+              "RelativeToolTip": "Scripts\\JavaScript\\RegistrationForm.js",
+              "ViewState": "AgIAANQAAAAAAAAAAAAiwOcAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-09-14T05:22:53.586Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

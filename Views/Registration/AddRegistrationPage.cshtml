@@ -4,14 +4,15 @@
     ViewBag.Title = "AddRegistrationPage";
     Layout = "~/Views/Shared/HomeLayout.cshtml";
     @*if (TempData["ErrorMessage"] != null)
-    {
-        <script>
-                    alert("@TempData["ErrorMessage"]");
-        </script>
-    }*@
+        {
+            <script>
+                        alert("@TempData["ErrorMessage"]");
+            </script>
+        }*@
 }
 <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
 <script src="~/Scripts/JavaScript/RegistrationForm.js"></script>
+<script src="~/Scripts/JavaScript/jquery-3.7.1.min.js"></script>
 <link href="~/Content/CSS/RegistrationForm.css" rel="stylesheet" />
 
 @using (Html.BeginForm())
@@ -45,8 +46,8 @@
                     <label for="female">Female</label>
                     @Html.RadioButton("gender", "others", new { id = "others" })
                     <label for="others">Others</label>
-                    <div class="gendererror" id="errr"></div>
                 </div>
+                <div class="gendererror" id="errr"></div>
             </div>
             <div class="form-group dob">
                 @Html.LabelFor(model => model.DateOfBirth)
@@ -58,23 +59,24 @@
             <div class="form-group">
                 @Html.LabelFor(model => model.City)
                 @Html.TextBox("City", null, new { id = "City", type = "text", placeholder = "City" })
-                <div class="emailerror" id="errr"></div>
+                <div class="cityerror" id="errr"></div>
             </div>
             <div class="form-group">
                 @Html.LabelFor(model => model.State)
                 @Html.TextBox("State", null, new { id = "State", type = "text", placeholder = "State" })
-                <div class="emailerror" id="errr"></div>
+                <div class="stateerror" id="errr"></div>
             </div>
             <div class="form-group">
                 @Html.LabelFor(model => model.HireDate)
-                @Html.TextBoxFor(model => model.HireDate, "{0:yyyy-MM-dd}", new { @class = "form-control", @id = "date", type = "date" })
+                @Html.TextBoxFor(model => model.HireDate, "{0:yyyy-MM-dd}", new { @class = "form-control", @id = "hiredate", type = "date" })
                 @*<input type="text" id="date" />*@
-                <div class="doberror" id="errr"></div>
+                <div class="hiredateerror" id="errr"></div>
             </div>
             <div class="form-group">
                 @Html.LabelFor(model => model.DepartmentName)
-                <select id="employeeType" name="DepartmentName">
+                <select id="departmentname" name="DepartmentName">
                     <option value="" disabled>DepartmentName</option>
+                    <option value=""></option>
                     <option value="Human resources">Human resources</option>
                     <option value="Finance">Finance</option>
                     <option value="Marketing">Marketing</option>
@@ -86,22 +88,23 @@
                     <option value="Training and Development">Training and Development</option>
                     <option value="Health and Safety">Health and Safety</option>
                 </select>
-                <div class="emailerror" id="errr"></div>
+                <div class="departmenterror" id="errr"></div>
             </div>
             <div class="form-group">
                 @Html.LabelFor(model => model.EmployeeType)
-                <select id="employeeType" name="EmployeeType">
+                <select id="employeetype" name="EmployeeType">
                     <option value="" disabled>Employee type</option>
+                    <option value=""></option>
                     <option value="fulltime">Full-Time</option>
                     <option value="parttime">Part-Time</option>
                 </select>
-                <div class="emailerror" id="errr"></div>
+                <div class="emperror" id="errr"></div>
             </div>
-            <div class="form-group">
+            @*<div class="form-group">
                 @Html.LabelFor(model => model.Salery)
                 @Html.EditorFor(model => model.Salery, new { htmlAttributes = new { @id = "Salery", @class = "form-control", @type = "number", @placeholder = "Salery" } })
                 <div class="phoneerror" id="errr"></div>
-            </div>
+            </div>*@
 
             <div class="form-group">
                 @Html.LabelFor(model => model.Email)
@@ -121,12 +124,9 @@
             <div class="form-group">
                 @Html.LabelFor(model => model.ConfirmPassword)
                 @Html.EditorFor(model => model.ConfirmPassword, new { htmlAttributes = new { @class = "form-control", @id = "cpassword", @placeholder = "Password" } })
-                @*@Html.Password("cpassword", null, new { id = "cpassword", placeholder = "Confirm password" })*@
-
                 <div class="conerror" id="errr"></div>
             </div>
             <div class="btn">
-                @*<button id="submitButton" name="submitbutton">Register</button>*@
                 <input type="submit" id="submitButton" value="Register" />
             </div>
             <div class="singup">
