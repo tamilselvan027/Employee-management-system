@@ -38,8 +38,7 @@ namespace Employee_Management_System.Controllers
             {
                 if (ContactRepositary.AddContactDetails(form))
                 {
-                    ViewBag.Message = "User details added successfully";
-                    //return RedirectToAction("Index");
+                    TempData["form submit"] = "The form has been successfully submitted";
                     return View();
                 }
 

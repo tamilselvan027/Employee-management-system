@@ -49,7 +49,6 @@ namespace Employee_Management_System.Repositary
                         HireDate = Convert.ToDateTime(dr["HireDate"]),
                         DepartmentName = Convert.ToString(dr["DepartmentName"]),
                         EmployeeType = Convert.ToString(dr["EmployeeType"]),
-                        Salery = Convert.ToInt32(dr["Salery"]),
                         UserName = Convert.ToString(dr["username"]),
                         Password = Convert.ToString(dr["password"])
                     });
@@ -75,7 +74,6 @@ namespace Employee_Management_System.Repositary
             command.Parameters.AddWithValue("@HireDate", update.HireDate);
             command.Parameters.AddWithValue("@DepartmentName", update.DepartmentName);
             command.Parameters.AddWithValue("@EmployeeType", update.EmployeeType);
-            command.Parameters.AddWithValue("@Salery", update.Salery);
             command.Parameters.AddWithValue("@UserName", update.UserName);
 
             connect.Open();

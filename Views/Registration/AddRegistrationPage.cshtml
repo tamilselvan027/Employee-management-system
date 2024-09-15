@@ -15,7 +15,7 @@
 <script src="~/Scripts/JavaScript/jquery-3.7.1.min.js"></script>
 <link href="~/Content/CSS/RegistrationForm.css" rel="stylesheet" />
 
-@using (Html.BeginForm())
+@using (Html.BeginForm("AddRegistrationPage", "Registration", FormMethod.Post, new { id = "registrationForm" }))
 {
     @Html.AntiForgeryToken()
 
@@ -57,15 +57,67 @@
 
             @*new added*@
             <div class="form-group">
-                @Html.LabelFor(model => model.City)
-                @Html.TextBox("City", null, new { id = "City", type = "text", placeholder = "City" })
-                <div class="cityerror" id="errr"></div>
-            </div>
-            <div class="form-group">
                 @Html.LabelFor(model => model.State)
-                @Html.TextBox("State", null, new { id = "State", type = "text", placeholder = "State" })
+                @*@Html.TextBox("State", null, new { id = "State", type = "text", placeholder = "State" })*@
+                <select id="State" name="State">
+                    <option>Choose State</option>
+                    <option>Andhra Pradesh</option>
+                    <option>Arunachal Pradesh</option>
+                    <option>Assam</option>
+                    <option>Bihar</option>
+                    <option>Chhattisgarh</option>
+                    <option>Goa</option>
+                    <option>Gujarat</option>
+                    <option>Haryana</option>
+                    <option>Himachal Pradesh</option>
+                    <option>Jharkhand</option>
+                    <option>Karnataka</option>
+                    <option>Kerala</option>
+                    <option>Madhya Pradesh</option>
+                    <option>Maharashtra</option>
+                    <option>Manipur</option>
+                    <option>Meghalaya</option>
+                    <option>Mizoram</option>
+                    <option>Nagaland</option>
+                    <option>Odisha</option>
+                    <option>Punjab</option>
+                    <option>Rajasthan</option>
+                    <option>Sikkim</option>
+                    <option>Tamil Nadu</option>
+                    <option>Telangana</option>
+                    <option>Tripura</option>
+                    <option>Uttar Pradesh</option>
+                    <option>Uttarakhand</option>
+                    <option>West Bengal</option>
+                </select>
                 <div class="stateerror" id="errr"></div>
             </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.City)
+                @*@Html.TextBox("City", null, new { id = "City", type = "text", placeholder = "City" })*@
+                <select id="City" name="City">
+                    <option>Choose City</option>
+                    <option>Chennai</option>
+                    <option>Coimbatore</option>
+                    <option>Madurai</option>
+                    <option>Tiruchirappalli</option>
+                    <option>Salem</option>
+                    <option>Tirunelveli</option>
+                    <option>Vellore</option>
+                    <option>Thanjavur</option>
+                    <option>Aruppukottai</option>
+                    <option>Dindigul</option>
+                    <option>Kumbakonam</option>
+                    <option>Kanchipuram</option>
+                    <option>Ramanathapuram</option>
+                    <option>Nagercoil</option>
+                    <option>Tuticorin</option>
+                    <option>Virudhunagar</option>
+                </select>
+                <div class="cityerror" id="errr"></div>
+            </div>
+
             <div class="form-group">
                 @Html.LabelFor(model => model.HireDate)
                 @Html.TextBoxFor(model => model.HireDate, "{0:yyyy-MM-dd}", new { @class = "form-control", @id = "hiredate", type = "date" })
@@ -101,10 +153,10 @@
                 <div class="emperror" id="errr"></div>
             </div>
             @*<div class="form-group">
-                @Html.LabelFor(model => model.Salery)
-                @Html.EditorFor(model => model.Salery, new { htmlAttributes = new { @id = "Salery", @class = "form-control", @type = "number", @placeholder = "Salery" } })
-                <div class="phoneerror" id="errr"></div>
-            </div>*@
+                    @Html.LabelFor(model => model.Salery)
+                    @Html.EditorFor(model => model.Salery, new { htmlAttributes = new { @id = "Salery", @class = "form-control", @type = "number", @placeholder = "Salery" } })
+                    <div class="phoneerror" id="errr"></div>
+                </div>*@
 
             <div class="form-group">
                 @Html.LabelFor(model => model.Email)

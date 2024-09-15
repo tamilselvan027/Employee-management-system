@@ -3,6 +3,12 @@
 @{
     ViewBag.Title = "Contact";
     Layout = "~/Views/Shared/HomeLayout.cshtml";
+    if (TempData["form submit"] != null)
+    {
+        <script>
+         alert("@TempData["form submit"]");
+        </script>
+    }
 }
 <link href="~/Content/CSS/ContactPage.css" rel="stylesheet" />
 <div>
@@ -49,7 +55,7 @@
 
             }
             @*<form action="">
-            </form>*@
+                </form>*@
         </div>
     </div>
 </div>

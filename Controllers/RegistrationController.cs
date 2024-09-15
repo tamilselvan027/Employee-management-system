@@ -28,12 +28,13 @@ namespace Employee_Management_System.Controllers
                { 
                     ViewBag.Message = "User details added successfully";
                     return RedirectToAction("LoginPage", "Login");
-               }
+                    //return View();
+                }
                 throw new Exception("Please change the username");
             }
             catch (Exception error)
             {
-                TempData["ErrorMessage"] = " This username already exist " + error.Message;
+                //TempData["ErrorMessage"] = " This username already exist " + error.Message;
             }
             return View();
         }
