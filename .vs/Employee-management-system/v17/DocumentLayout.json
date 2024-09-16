@@ -3,16 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\Admin\\Desktop\\Employee-management-system\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F0AA0286-6FBC-4394-A7DD-4621B64D15E1}|Employee-Management-System.csproj|c:\\users\\admin\\desktop\\employee-management-system\\views\\employeedetails\\editdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F0AA0286-6FBC-4394-A7DD-4621B64D15E1}|Employee-Management-System.csproj|solutionrelative:views\\employeedetails\\editdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{F0AA0286-6FBC-4394-A7DD-4621B64D15E1}|Employee-Management-System.csproj|c:\\users\\admin\\desktop\\employee-management-system\\views\\shared\\adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F0AA0286-6FBC-4394-A7DD-4621B64D15E1}|Employee-Management-System.csproj|solutionrelative:views\\shared\\adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F0AA0286-6FBC-4394-A7DD-4621B64D15E1}|Employee-Management-System.csproj|c:\\users\\admin\\desktop\\employee-management-system\\controllers\\employeedetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F0AA0286-6FBC-4394-A7DD-4621B64D15E1}|Employee-Management-System.csproj|solutionrelative:controllers\\employeedetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F0AA0286-6FBC-4394-A7DD-4621B64D15E1}|Employee-Management-System.csproj|c:\\users\\admin\\desktop\\employee-management-system\\views\\shared\\homelayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F0AA0286-6FBC-4394-A7DD-4621B64D15E1}|Employee-Management-System.csproj|solutionrelative:views\\shared\\homelayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F0AA0286-6FBC-4394-A7DD-4621B64D15E1}|Employee-Management-System.csproj|c:\\users\\admin\\desktop\\employee-management-system\\repositary\\employeedetailsrepositary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F0AA0286-6FBC-4394-A7DD-4621B64D15E1}|Employee-Management-System.csproj|solutionrelative:repositary\\employeedetailsrepositary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F0AA0286-6FBC-4394-A7DD-4621B64D15E1}|Employee-Management-System.csproj|c:\\users\\admin\\desktop\\employee-management-system\\views\\shared\\userlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F0AA0286-6FBC-4394-A7DD-4621B64D15E1}|Employee-Management-System.csproj|solutionrelative:views\\shared\\userlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0AA0286-6FBC-4394-A7DD-4621B64D15E1}|Employee-Management-System.csproj|c:\\users\\admin\\desktop\\employee-management-system\\content\\css\\employeedetails.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{F0AA0286-6FBC-4394-A7DD-4621B64D15E1}|Employee-Management-System.csproj|solutionrelative:content\\css\\employeedetails.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0AA0286-6FBC-4394-A7DD-4621B64D15E1}|Employee-Management-System.csproj|c:\\users\\admin\\desktop\\employee-management-system\\views\\adminleave\\getleavedetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F0AA0286-6FBC-4394-A7DD-4621B64D15E1}|Employee-Management-System.csproj|solutionrelative:views\\adminleave\\getleavedetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0AA0286-6FBC-4394-A7DD-4621B64D15E1}|Employee-Management-System.csproj|c:\\users\\admin\\desktop\\employee-management-system\\views\\adminleave\\editdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F0AA0286-6FBC-4394-A7DD-4621B64D15E1}|Employee-Management-System.csproj|solutionrelative:views\\adminleave\\editdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0AA0286-6FBC-4394-A7DD-4621B64D15E1}|Employee-Management-System.csproj|c:\\users\\admin\\desktop\\employee-management-system\\content\\css\\adminleavepage.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{F0AA0286-6FBC-4394-A7DD-4621B64D15E1}|Employee-Management-System.csproj|solutionrelative:content\\css\\adminleavepage.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0AA0286-6FBC-4394-A7DD-4621B64D15E1}|Employee-Management-System.csproj|c:\\users\\admin\\desktop\\employee-management-system\\repositary\\adminleaverepositary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0AA0286-6FBC-4394-A7DD-4621B64D15E1}|Employee-Management-System.csproj|solutionrelative:repositary\\adminleaverepositary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0AA0286-6FBC-4394-A7DD-4621B64D15E1}|Employee-Management-System.csproj|c:\\users\\admin\\desktop\\employee-management-system\\controllers\\adminleavecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0AA0286-6FBC-4394-A7DD-4621B64D15E1}|Employee-Management-System.csproj|solutionrelative:controllers\\adminleavecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0AA0286-6FBC-4394-A7DD-4621B64D15E1}|Employee-Management-System.csproj|c:\\users\\admin\\desktop\\employee-management-system\\models\\leaveview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0AA0286-6FBC-4394-A7DD-4621B64D15E1}|Employee-Management-System.csproj|solutionrelative:models\\leaveview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0AA0286-6FBC-4394-A7DD-4621B64D15E1}|Employee-Management-System.csproj|c:\\users\\admin\\desktop\\employee-management-system\\models\\leave.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0AA0286-6FBC-4394-A7DD-4621B64D15E1}|Employee-Management-System.csproj|solutionrelative:models\\leave.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,40 +63,144 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "EditDetails.cshtml",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Employee-management-system\\Views\\EmployeeDetails\\EditDetails.cshtml",
-              "RelativeDocumentMoniker": "Views\\EmployeeDetails\\EditDetails.cshtml",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\Employee-management-system\\Views\\EmployeeDetails\\EditDetails.cshtml",
-              "RelativeToolTip": "Views\\EmployeeDetails\\EditDetails.cshtml",
-              "ViewState": "AgIAAFcAAAAAAAAAAAAAAGMAAAASAAAAAAAAAA==",
+              "Title": "AdminLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Employee-management-system\\Views\\Shared\\AdminLayout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\AdminLayout.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Employee-management-system\\Views\\Shared\\AdminLayout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\AdminLayout.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACsAAABeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-15T14:16:12.437Z",
+              "WhenOpened": "2024-09-16T06:51:31.89Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "EmployeeDetailsController.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Employee-management-system\\Controllers\\EmployeeDetailsController.cs",
-              "RelativeDocumentMoniker": "Controllers\\EmployeeDetailsController.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\Employee-management-system\\Controllers\\EmployeeDetailsController.cs",
-              "RelativeToolTip": "Controllers\\EmployeeDetailsController.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAgwCYAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T14:15:14.609Z",
+              "Title": "HomeLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Employee-management-system\\Views\\Shared\\HomeLayout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\HomeLayout.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Employee-management-system\\Views\\Shared\\HomeLayout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\HomeLayout.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAACwAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-16T06:45:49.729Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "EmployeeDetailsRepositary.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Employee-management-system\\Repositary\\EmployeeDetailsRepositary.cs",
-              "RelativeDocumentMoniker": "Repositary\\EmployeeDetailsRepositary.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\Employee-management-system\\Repositary\\EmployeeDetailsRepositary.cs",
-              "RelativeToolTip": "Repositary\\EmployeeDetailsRepositary.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAgwAsAAAARAAAAAAAAAA==",
+              "Title": "UserLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Employee-management-system\\Views\\Shared\\UserLayout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\UserLayout.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Employee-management-system\\Views\\Shared\\UserLayout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\UserLayout.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAACsAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-16T06:40:47.548Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EmployeeDetails.css",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Employee-management-system\\Content\\CSS\\EmployeeDetails.css",
+              "RelativeDocumentMoniker": "Content\\CSS\\EmployeeDetails.css",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Employee-management-system\\Content\\CSS\\EmployeeDetails.css",
+              "RelativeToolTip": "Content\\CSS\\EmployeeDetails.css",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAADMAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-09-16T06:36:39.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EditDetails.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Employee-management-system\\Views\\AdminLeave\\EditDetails.cshtml",
+              "RelativeDocumentMoniker": "Views\\AdminLeave\\EditDetails.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Employee-management-system\\Views\\AdminLeave\\EditDetails.cshtml",
+              "RelativeToolTip": "Views\\AdminLeave\\EditDetails.cshtml",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAEEAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-16T06:01:10.138Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AdminLeavePage.css",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Employee-management-system\\Content\\CSS\\AdminLeavePage.css",
+              "RelativeDocumentMoniker": "Content\\CSS\\AdminLeavePage.css",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Employee-management-system\\Content\\CSS\\AdminLeavePage.css",
+              "RelativeToolTip": "Content\\CSS\\AdminLeavePage.css",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAEEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-09-16T05:42:13.155Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AdminLeaveController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Employee-management-system\\Controllers\\AdminLeaveController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminLeaveController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Employee-management-system\\Controllers\\AdminLeaveController.cs",
+              "RelativeToolTip": "Controllers\\AdminLeaveController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T14:13:45.853Z",
+              "WhenOpened": "2024-09-15T16:20:19.355Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GetLeaveDetails.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Employee-management-system\\Views\\AdminLeave\\GetLeaveDetails.cshtml",
+              "RelativeDocumentMoniker": "Views\\AdminLeave\\GetLeaveDetails.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Employee-management-system\\Views\\AdminLeave\\GetLeaveDetails.cshtml",
+              "RelativeToolTip": "Views\\AdminLeave\\GetLeaveDetails.cshtml",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAABMAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-15T16:17:34.889Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Leave.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Employee-management-system\\Models\\Leave.cs",
+              "RelativeDocumentMoniker": "Models\\Leave.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Employee-management-system\\Models\\Leave.cs",
+              "RelativeToolTip": "Models\\Leave.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAYwEMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T16:29:05.436Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AdminLeaveRepositary.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Employee-management-system\\Repositary\\AdminLeaveRepositary.cs",
+              "RelativeDocumentMoniker": "Repositary\\AdminLeaveRepositary.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Employee-management-system\\Repositary\\AdminLeaveRepositary.cs",
+              "RelativeToolTip": "Repositary\\AdminLeaveRepositary.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T16:30:15.882Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LeaveView.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Employee-management-system\\Models\\LeaveView.cs",
+              "RelativeDocumentMoniker": "Models\\LeaveView.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Employee-management-system\\Models\\LeaveView.cs",
+              "RelativeToolTip": "Models\\LeaveView.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T16:33:37.256Z",
               "EditorCaption": ""
             }
           ]

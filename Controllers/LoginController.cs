@@ -47,8 +47,9 @@ namespace Employee_Management_System.Controllers
                 }
 
             }
-            catch {
-                TempData["AlertMessage"] = "Failed to Login details. Please try again.";
+            catch (Exception error)
+            {
+                TempData["AlertMessage"] = "Failed to Login details. " + error.Message;
             }
             return View();
         }

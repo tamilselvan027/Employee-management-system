@@ -3,11 +3,11 @@
 }
 
 .table {
-    width: 70%;
+    width: 91%;
     margin: 5px;
     max-height: 400px;
     overflow: scroll;
-    margin-left: 200px;
+    margin-left: 77px;
     margin-bottom: 35px;
 }
 
@@ -46,10 +46,10 @@ button {
 }
 
 .add-btn {
-    margin-left: 920px;
+    margin-left: 1077px;
     margin-top: 60px;
     margin-bottom: 20px;
-    width: 20px;
+    width: 200px;
 }
 
     .add-btn:hover {

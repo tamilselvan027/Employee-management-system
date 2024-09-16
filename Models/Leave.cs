@@ -64,7 +64,5 @@ namespace Employee_Management_System.Models
         public int TotalVacationLeave = 12;
         public int TotalOptionalLeave = 4;
 
-
-
     }
 }

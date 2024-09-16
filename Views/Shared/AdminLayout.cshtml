@@ -39,9 +39,9 @@
                     Quick Links
                 </h3>
                 <ul class="footer-list">
-                    <li><a href="#">Employee details</a></li>
-                    <li><a href="#">Departments</a></li>
-                    <li><a href="#">Apply leave</a></li>
+                    <li>@Html.ActionLink("Employee details", "GetAllDetails", "Admin")</li>
+                    <li>@Html.ActionLink("Departments", "GetDepartments", "Admin")</li>
+                    <li>@Html.ActionLink("Leave status", "GetLeaveDetails", "AdminLeave")</li>
                 </ul>
             </div>
             <div class="footer-content temp">

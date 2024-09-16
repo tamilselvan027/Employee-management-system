@@ -9,5 +9,7 @@ namespace Employee_Management_System.Models
     {
         public Leave SingleLeave { get; set; }
         public IEnumerable<Leave> LeaveHistoryList { get; set; }
+
+        public IEnumerable<Leave> Leaves { get; set; }
     }
 }

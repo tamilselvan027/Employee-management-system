@@ -48,8 +48,9 @@ footer {
     position: relative;
 }
 
-.history{
-    position:relative;
-    left: 600px;
-    margin-top:20vh;
+.history {
+    position: relative;
+    left: 572px;
+    margin-top: 20vh;
+    width: 250px;
 }

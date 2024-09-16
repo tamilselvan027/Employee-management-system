@@ -1,0 +1,58 @@
+﻿@*@model IEnumerable<Employee_Management_System.Models.LeaveView>*@
+@model Employee_Management_System.Models.LeaveView
+
+@{
+    ViewBag.Title = "GetLeaveDetailsCopy";
+    Layout = "~/Views/Shared/AdminLayout.cshtml";
+}
+<link href="~/Content/CSS/AdminLeavePage.css" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+@*@model YourNamespace.Models.LeaveViewModel*@
+
+<!-- Dropdown for filtering leave status -->
+<form method="get" action="@Url.Action("GetLeaveDetails")">
+    <label for="statusFilter">Filter by Leave Status:</label>
+    <select id="statusFilter" name="statusFilter">
+        <option value="">All</option>
+        <option value="Approved" @(Request.QueryString["statusFilter"] == "Approved" ? "selected" : "")>Approved</option>
+        <option value="Pending" @(Request.QueryString["statusFilter"] == "Pending" ? "selected" : "")>Pending</option>
+        <option value="Rejected" @(Request.QueryString["statusFilter"] == "Rejected" ? "selected" : "")>Rejected</option>
+    </select>
+    <button type="submit">Filter</button>
+</form>
+
+<!-- Table -->
+<table class="table-content">
+    <thead>
+        <tr>
+            <th>  EmployeeId</th>
+            <th>  LeaveType</th>
+            <th>  StartDate</th>
+            <th>  EndDate</th>
+            <th> LeaveCount</th>
+            <th>  Reason</th>
+            <th> LeaveStatus</th>
+            <th></th>
+        </tr>
+    </thead>
+
+    @foreach (var item in Model.Leaves)
+    {
+        <tr>
+            <td>@Html.DisplayFor(modelItem => item.EmployeeId)</td>
+            <td>@Html.DisplayFor(modelItem => item.LeaveType)</td>
+            <td>@Html.DisplayFor(modelItem => item.StartDate)</td>
+            <td>@Html.DisplayFor(modelItem => item.EndDate)</td>
+            <td>@Html.DisplayFor(modelItem => item.LeaveCount)</td>
+            <td>@Html.DisplayFor(modelItem => item.Reason)</td>
+            <td>@Html.DisplayFor(modelItem => item.LeaveStatus)</td>
+            @*<td id="links">
+                    <a href="@Url.Action("EditDetails", "AdminLeave", new { id = item.Id })">
+                        <i class="fa-solid fa-pen-to-square"></i>
+                    </a>
+                </td>*@
+        </tr>
+    }
+</table>
+

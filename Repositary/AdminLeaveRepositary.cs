@@ -19,7 +19,7 @@ namespace Employee_Management_System.Repositary
             connect = new SqlConnection(constr);
         }
 
-        //Select employee details
+        //This select employee details for editing purpose
         public List<Leave> SelectLeaveDetails()
         {
             Connection();
@@ -47,6 +47,49 @@ namespace Employee_Management_System.Repositary
                     });
             return reglist;
         }
+
+        //Select employee details
+        public List<Leave> SelectLeaveDetails(string statusFilter)
+        {
+            Connection();
+            List<Leave> reglist = new List<Leave>();
+            SqlCommand command = new SqlCommand("SPS_GetLeaveStatus", connect);
+            command.CommandType = CommandType.StoredProcedure;
+
+            // Add parameter for filtering leave status
+            if (!string.IsNullOrEmpty(statusFilter))
+            {
+                command.Parameters.AddWithValue("@LeaveStatus", statusFilter);
+            }
+            else
+            {
+                command.Parameters.AddWithValue("@LeaveStatus", DBNull.Value);
+            }
+
+            SqlDataAdapter adapter = new SqlDataAdapter(command);
+            DataTable dt = new DataTable();
+            connect.Open();
+            adapter.Fill(dt);
+            connect.Close();
+
+            foreach (DataRow dr in dt.Rows)
+            {
+                reglist.Add(new Leave
+                {
+                    Id = Convert.ToInt32(dr["Id"]),
+                    EmployeeId = Convert.ToInt32(dr["EmployeeId"]),
+                    LeaveType = Convert.ToString(dr["LeaveType"]),
+                    StartDate = Convert.ToDateTime(dr["StartDate"]),
+                    EndDate = Convert.ToDateTime(dr["EndDate"]),
+                    LeaveCount = Convert.ToInt32(dr["LeaveCount"]),
+                    Reason = Convert.ToString(dr["Reason"]),
+                    LeaveStatus = Convert.ToString(dr["LeaveStatus"])
+                });
+            }
+
+            return reglist;
+        }
+
 
         //Edit employee details
         public bool EditLeaveDetails(Leave update)

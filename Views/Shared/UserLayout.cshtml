@@ -15,7 +15,7 @@
             </a>
             <ul class="navlist">
                 @*<li><a href="#">Home</a></li>*@
-                <li>@Html.ActionLink("Dashboard", "GetEmployeeProfile", "EmployeeDetails")</li>
+                <li>@Html.ActionLink("Home", "GetEmployeeProfile", "EmployeeDetails")</li>
                 <li>@Html.ActionLink("Departments", "GetDepartments", "Departments")</li>
                 <li>@Html.ActionLink("Apply leave", "GetLeaveStatus", "Leave")</li>
                 <li>@Html.ActionLink("Log out", "Index", "Home")</li>
@@ -39,10 +39,9 @@
                     Quick Links
                 </h3>
                 <ul class="footer-list">
-                    <li><a href="#">Dashboard</a></li>
-                    <li><a href="#">Departments</a></li>
-                    <li><a href="#">Apply leave</a></li>
-                    <li><a href="#">Reports</a></li>
+                    <li>@Html.ActionLink("Home", "GetEmployeeProfile", "EmployeeDetails")</li>
+                    <li>@Html.ActionLink("Departments", "GetDepartments", "Departments")</li>
+                    <li>@Html.ActionLink("Apply leave", "GetLeaveStatus", "Leave")</li>
                 </ul>
             </div>
             <div class="footer-content temp">

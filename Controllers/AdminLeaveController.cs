@@ -10,14 +10,21 @@ namespace Employee_Management_System.Controllers
 {
     public class AdminLeaveController : Controller
     {
-        //// GET Leave Details
+        //GET leave applied details for admin page
         [HttpGet]
-        public ActionResult GetLeaveDetails()
+        public ActionResult GetLeaveDetails(string statusFilter)
         {
             AdminLeaveRepositary adminleaverepositary = new AdminLeaveRepositary();
             ModelState.Clear();
-            return View(adminleaverepositary.SelectLeaveDetails());
+            var leaveDetail = adminleaverepositary.SelectLeaveDetails(statusFilter);
+
+            return View(new LeaveView
+            {
+                Leaves = leaveDetail
+            });
         }
+
+
 
         // GET: /EditDetails/5
         [HttpGet]

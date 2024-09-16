@@ -46,7 +46,6 @@ namespace Employee_Management_System.Repositary
                         HireDate = Convert.ToDateTime(dr["HireDate"]),
                         DepartmentName = Convert.ToString(dr["DepartmentName"]),
                         EmployeeType = Convert.ToString(dr["EmployeeType"]),
-                        Salery = Convert.ToInt32(dr["Salery"]),
                         UserName = Convert.ToString(dr["username"]),
                         Password = Convert.ToString(dr["password"])
                     });
