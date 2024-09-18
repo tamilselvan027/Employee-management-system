@@ -80,5 +80,7 @@ namespace Employee_Management_System.Models
         public string UserType { get; set; }
 
         public string DeleteStatus { get; set; }
+
+        public string AdminStatus { get; set; }
     }
 }

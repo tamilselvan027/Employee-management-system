@@ -1,5 +1,6 @@
 ﻿$(document).ready(function () {
 
+
     function validateUsername() {
         const username = $('#username').val();
         // Email validation
@@ -55,3 +56,18 @@
         }
     })
 });
+
+function togglePassword() {
+    var pwdField = document.getElementById("password");
+    var toggleIcon = document.getElementById("togglePwd");
+
+    if (pwdField.type === "password") {
+        pwdField.type = "text";
+        toggleIcon.classList.remove("fa-eye-slash");
+        toggleIcon.classList.add("fa-eye");
+    } else {
+        pwdField.type = "password";
+        toggleIcon.classList.remove("fa-eye");
+        toggleIcon.classList.add("fa-eye-slash");
+    }
+}

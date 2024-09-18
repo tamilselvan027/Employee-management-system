@@ -4,7 +4,9 @@
     ViewBag.Title = "EditDetails";
     Layout = "~/Views/Shared/AdminLayout.cshtml";
 }
-<link href="~/Content/CSS/EditPage.css" rel="stylesheet" />
+<link href="~/Content/CSS/EditPageDepartmentAdmin.css" rel="stylesheet" />
+<script src="~/Scripts/JavaScript/EditPageDepartment.js"></script>
+<script src="~/Scripts/JavaScript/DisableBackButton.js"></script>
 
 <div class="edit">
     @using (Html.BeginForm())
@@ -43,15 +45,14 @@
                 </div>
             </div>
 
-            <div class="form-group">
-                <div>
+            <div class="form-group btngrp">
+                <div class="grp-Save">
                     <input type="submit" value="Save" class="btn btn-default" />
+                </div>
+                <div class="grp-delete">
+                    @Html.ActionLink("Delete ", "DeleteDepartment", "Admin", new { id = Model.DepartmentID }, new { @class = "confirm-link" })
                 </div>
             </div>
         </div>
     }
 </div>
-
-    @*<div>
-        @Html.ActionLink("Back to List", "Index")
-    </div>*@

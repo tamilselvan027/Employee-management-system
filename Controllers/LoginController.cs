@@ -34,7 +34,7 @@ namespace Employee_Management_System.Controllers
                 if (redirct == "admin")
                 {
                     ViewBag.AlertMsg = "Login successfully";
-                    return RedirectToAction("GetAllDetails", "Admin");
+                    return RedirectToAction("GetDepartments", "Admin");
                 }
                 else if (redirct == "user")
                 {

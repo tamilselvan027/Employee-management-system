@@ -10,6 +10,7 @@ namespace Employee_Management_System.Controllers
 {
     public class AdminController : Controller
     {
+        //This for employee details page action link
         // GET Details
         [HttpGet]
         public ActionResult GetAllDetails()
@@ -42,8 +43,9 @@ namespace Employee_Management_System.Controllers
             }
         }
 
-        //Department details
 
+        // there only department action link and linked with departmants repo 
+        //Department details
         public ActionResult GetDepartments()
         {
             DepartmentRepositary departmentrepositary = new DepartmentRepositary();
@@ -51,7 +53,35 @@ namespace Employee_Management_System.Controllers
             return View(departmentrepositary.SelectDataDetails());
         }
 
-        // GET: /EditDetails/5
+        // GET: Add new departmaent
+        [HttpGet]
+        public ActionResult AddDepartments()
+        {
+            return View();
+        }
+
+        // POST: Registration
+        [HttpPost]
+        public ActionResult AddDepartments(Departments departments)
+        {
+            DepartmentRepositary departmentrepositary = new DepartmentRepositary();
+            try
+            {
+                if (departmentrepositary.AddDepartments(departments))
+                {
+                    ViewBag.Message = "Department details added successfully";
+                    return RedirectToAction("GetDepartments", "Admin");
+                }
+                throw new Exception("Please change the username");
+            }
+            catch (Exception error)
+            {
+            }
+            return View();
+        }
+
+
+        // GET: /Edit for department 
         [HttpGet]
         public ActionResult EditDetails(int id)
         {
@@ -74,15 +104,30 @@ namespace Employee_Management_System.Controllers
         {
             try
             {
-                AdminRepositary adminrepositary = new AdminRepositary();
-
-                adminrepositary.EditDepartmentDetails(departments);
+                DepartmentRepositary departmentrepositary = new DepartmentRepositary();
+                departmentrepositary.EditDepartmentDetails(departments);
                 return RedirectToAction("GetDepartments");
             }
             catch (Exception error)
             {
                 TempData["ErrorMessage"] = "An unexpected error occurred: " + error.Message;
                 //return View();
+            }
+            return View();
+        }
+        public ActionResult DeleteDepartment(int id)
+        {
+            try
+            {
+                DepartmentRepositary departmentrepositary = new DepartmentRepositary();
+                if (departmentrepositary.DeleteDepartment(id))
+                {
+                    return RedirectToAction("GetDepartments");
+                }
+            }
+            catch (Exception error)
+            {
+                TempData["ErrorMessage"] = "An unexpected error occurred: " + error.Message;
             }
             return View();
         }

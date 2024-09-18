@@ -14,11 +14,11 @@
                 <img src="~/Content/Images/claysys-logo.png" />
             </a>
             <ul class="navlist">
-                @*<li><a href="#">Home</a></li>*@
-                <li>@Html.ActionLink("Employee details", "GetAllDetails", "Admin")</li>
                 <li>@Html.ActionLink("Departments", "GetDepartments", "Admin")</li>
-                <li>@Html.ActionLink("Leave status", "GetLeaveDetails", "AdminLeave")</li>
-                <li>@Html.ActionLink("Log out", "Index", "Home")</li>
+                <li>@Html.ActionLink("Employee details", "GetAllDetails", "Admin")</li>
+                <li>@Html.ActionLink("Leave approvel", "GetLeaveDetails", "AdminLeave")</li>
+                <li>@Html.ActionLink("Pending request", "GetNewUser", "AdminApprovedStatus")</li>
+                <li>@Html.ActionLink("Logout", "Index", "Home")</li>
             </ul>
         </nav>
     </header>
@@ -42,6 +42,7 @@
                     <li>@Html.ActionLink("Employee details", "GetAllDetails", "Admin")</li>
                     <li>@Html.ActionLink("Departments", "GetDepartments", "Admin")</li>
                     <li>@Html.ActionLink("Leave status", "GetLeaveDetails", "AdminLeave")</li>
+                    <li>@Html.ActionLink("Pending Request", "GetNewUser", "AdminApprovedStatus")</li>
                 </ul>
             </div>
             <div class="footer-content temp">

@@ -4,48 +4,53 @@
     ViewBag.Title = "LeavePage";
     Layout = "~/Views/Shared/UserLayout.cshtml";
 
-    if(TempData["AlertMessage"] != null)
-            {
-                <script>
+    if (TempData["AlertMessage"] != null)
+    {
+        <script>
                     alert("@TempData["AlertMessage"]");
-                </script>
-            }
+        </script>
+    }
 }
+<script src="~/Scripts/JavaScript/jquery-3.7.1.min.js"></script>
 <link href="~/Content/CSS/LeavePage.css" rel="stylesheet" />
+<script src="~/Scripts/JavaScript/DisableBackButton.js"></script>
 <script src="~/Scripts/JavaScript/LeaveForm.js"></script>
+
 <div class="leave">
     <h2>Leave Application</h2>
-    @using (Html.BeginForm())
+    @using (Html.BeginForm("LeavePage", "Leave", FormMethod.Post, new { id = "loginForm" }))
     {
         @Html.AntiForgeryToken()
 
 
         @*<div class="form-group">
-            <label for="employee-id">Employee ID</label>
-            <input type="number" id="employee-id" name="EmployeeId">
-        </div>*@
+                <label for="employee-id">Employee ID</label>
+                <input type="number" id="employee-id" name="EmployeeId">
+            </div>*@
 
         <div class="form-group dropdown">
             <h4> Leave Details </h4>
             <label for="leave-type">Type of Leave:</label>
             <select id="leave-type" name="LeaveType">
-                <option value="" disabled>Select Leave Type</option>
-                <option value=""></option>
+                <option value="">Select Leave Type</option>
                 <option value="Sick Leave">Sick Leave</option>
                 <option value="Vacation Leave">Vacation Leave</option>
                 <option value="Casual Leave">Casual Leave</option>
                 <option value="Optional Leave">Optional Leave</option>
             </select>
+            <span id="leavetype"></span>
         </div>
 
         <div class="form-group">
             <label for="start-date">Start Date:</label>
             <input type="date" id="start-date" name="StartDate">
+            <span id="start"></span>
         </div>
 
         <div class="form-group">
             <label for="end-date">End Date:</label>
             <input type="date" id="end-date" name="EndDate">
+            <span id="end"></span>
         </div>
 
         <div class="form-group">
@@ -57,9 +62,9 @@
             <label for="reason">Reason for Leave:</label>
             <textarea id="reason" name="Reason" rows="4"></textarea>
         </div>
-
+        
         <div class="form-group">
-            <input type="submit" value="Submit">
+            <input type="submit" value="Submit" id="submitbutton">
         </div>
     }
 </div>

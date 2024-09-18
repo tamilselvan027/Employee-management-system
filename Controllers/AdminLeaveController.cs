@@ -25,7 +25,6 @@ namespace Employee_Management_System.Controllers
         }
 
 
-
         // GET: /EditDetails/5
         [HttpGet]
         public ActionResult EditDetails(int id)

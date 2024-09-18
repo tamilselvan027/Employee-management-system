@@ -1,4 +1,52 @@
 ﻿$(document).ready(function () {
+    $('#username').blur(function () {
+        if ($('#username').val() != "") {
+
+            $.ajax({
+                url: 'https://localhost:44323/Registration/GetUserByUsername?username=' + $('#username').val(),
+                method: 'GET',
+                success: function (response) {
+                    //console.log(response)
+                    if (response != "") {
+                        $(".nameerror").text("Already Exist").css('color', 'red');
+                    }
+                    else {
+                        $(".nameerror").text("");
+                    }
+                },
+                error: function (xhr, status, error) {
+                    console.log(error)
+                }
+            });
+        } else {
+            $(".nameerror").text("Username Empty");
+        }
+    })
+
+    $('#email').blur(function () {
+        if ($('#email').val() != "") {
+
+            $.ajax({
+                url: 'https://localhost:44323/Registration/GetUserByEmail?email=' + $('#email').val(),
+                method: 'GET',
+                success: function (response) {
+                    //console.log(response)
+                    if (response != "") {
+                        $(".emailerror").text("Already Exist").css('color', 'red');
+                    }
+                    else {
+                        $(".emailerror").text("");
+                    }
+                },
+                error: function (xhr, status, error) {
+                    console.log(error)
+                }
+            });
+        } else {
+            $(".emailerror").text("Email is Empty");
+        }
+    })
+
 
     function validateFirstname() {
         const firstname = $('#firstname').val();
@@ -95,29 +143,37 @@
     }
 
     function validateCity() {
-        const City = $('#City').val();
+        const City = $('#city').val();
         if (City === '') {
-            $('.cityerror').text('Enter your city').css('color', 'red');
-            $('#City').css('border', '1px solid red');
+            $('.cityerror').text('Select your city').css('color', 'red');
+            $('#city').css('border', '1px solid red');
             return false;
+        } else if (City == 'choose your city') {
+            $('.cityerror').text('Select your city').css('color', 'red');
+            $('#city').css('border', '1px solid red');
         } else {
             $('.cityerror').text('');
-            $('#City').css('border', '1px solid green');
+            $('#city').css('border', '1px solid green');
             return true;
         }
+        
     }
 
     function validateState() {
-        const State = $('#State').val();
+        const State = $('#state').val();
         if (State === '') {
-            $('.stateerror').text('Enter your state').css('color', 'red');
-            $('#State').css('border', '1px solid red');
+            $('.stateerror').text('Select your state').css('color', 'red');
+            $('#state').css('border', '1px solid red');
             return false;
+        } else if (State == 'Choose state') {
+            $('.stateerror').text('Select your state').css('color', 'red');
+            $('#state').css('border', '1px solid red');
         } else {
             $('.stateerror').text('');
-            $('#State').css('border', '1px solid green');
+            $('#state').css('border', '1px solid green');
             return true;
         }
+        
     }
 
     function validateHiredate() {
@@ -259,8 +315,8 @@
     $('#phone').focusout(validatePhonenumber);
     $('input[name = "gender"]').focusout(validateGender);
     $('#date').focusout(validateDate);
-    $('#City').focusout(validateCity);
-    $('#State').focusout(validateState);
+    $('#city').focusout(validateCity);
+    $('#state').focusout(validateState);
     $('#hiredate').focusout(validateHiredate);
     $('#departmentname').focusout(validateDepartment);
     $('#employeetype').focusout(validateEmployeetype);
@@ -287,7 +343,6 @@
         var IsvalidatePassword =validatePassword();
         var IsvalidateCpassword = validateCpassword();
 
-        console.log(IsvalidateFirstname && IsvalidateLastname && IsvalidatePhonenumber && IsvalidateGender && IsvalidateDate && IsvalidateCity && IsvalidateState && IsvalidateHiredate && IsvalidateDepartment && IsvalidateEmployeetype && IsvalidateEmail && IsvalidateUsername && IsvalidatePassword && IsvalidateCpassword)
 
 
         if (IsvalidateFirstname && IsvalidateLastname && IsvalidatePhonenumber && IsvalidateGender && IsvalidateDate && IsvalidateCity && IsvalidateState && IsvalidateHiredate && IsvalidateDepartment && IsvalidateEmployeetype && IsvalidateEmail && IsvalidateUsername && IsvalidatePassword && IsvalidateCpassword) {
@@ -298,3 +353,4 @@
 
     })
 });
+

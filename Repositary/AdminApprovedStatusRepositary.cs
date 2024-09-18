@@ -2,27 +2,27 @@
 using System;
 using System.Collections.Generic;
 using System.Configuration;
-using System.Data.SqlClient;
 using System.Data;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Web;
 
 namespace Employee_Management_System.Repositary
 {
-    public class AdminRepositary
+    public class AdminApprovedStatusRepositary
     {
         public SqlConnection connect;
-
         public void Connection()
         {
-            String constr = ConfigurationManager.ConnectionStrings["connectionstr"].ToString();
+            string constr = ConfigurationManager.ConnectionStrings["connectionstr"].ToString();
             connect = new SqlConnection(constr);
         }
-        public List<Admin> SelectDataDetails()
+
+        public List<Admin> GetNewUser()
         {
             Connection();
             List<Admin> reglist = new List<Admin>();
-            SqlCommand command = new SqlCommand("SPS_GetEmployeeDetails", connect);
+            SqlCommand command = new SqlCommand("SPS_GetNewUser", connect);
             command.CommandType = CommandType.StoredProcedure;
             SqlDataAdapter adapter = new SqlDataAdapter(command);
             DataTable dt = new DataTable();
@@ -47,17 +47,18 @@ namespace Employee_Management_System.Repositary
                         DepartmentName = Convert.ToString(dr["DepartmentName"]),
                         EmployeeType = Convert.ToString(dr["EmployeeType"]),
                         UserName = Convert.ToString(dr["username"]),
-                        Password = Convert.ToString(dr["password"])
+                        AdminStatus = Convert.ToString(dr["AdminStatus"])
                     });
             return reglist;
         }
 
-        public bool DeletedataDetails(int id)
+        //Update status approved
+        public bool AdminApproved(int Id)
         {
             Connection();
-            SqlCommand command = new SqlCommand("SPD_DeleteData", connect);
+            SqlCommand command = new SqlCommand("SPU_ApprovedNewUser", connect);
             command.CommandType = CommandType.StoredProcedure;
-            command.Parameters.AddWithValue("@EmployeeID", id);
+            command.Parameters.AddWithValue("@EmployeeID", Id);
 
             connect.Open();
             int i = command.ExecuteNonQuery();
@@ -69,5 +70,21 @@ namespace Employee_Management_System.Repositary
             else { return false; }
         }
 
+        public bool AdminRejected(int Id)
+        {
+            Connection();
+            SqlCommand command = new SqlCommand("SPU_RejectedNewUser", connect);
+            command.CommandType = CommandType.StoredProcedure;
+            command.Parameters.AddWithValue("@EmployeeID", Id);
+
+            connect.Open();
+            int i = command.ExecuteNonQuery();
+            connect.Close();
+            if (i >= 1)
+            {
+                return true;
+            }
+            else { return false; }
+        }
     }
 }

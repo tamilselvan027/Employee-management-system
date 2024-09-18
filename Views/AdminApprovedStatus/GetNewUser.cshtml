@@ -1,21 +1,13 @@
 ﻿@model IEnumerable<Employee_Management_System.Models.Admin>
 
 @{
-    ViewBag.Title = "GetAllDetails";
+    ViewBag.Title = "GetNewUser";
     Layout = "~/Views/Shared/AdminLayout.cshtml";
-    if (TempData["AlertMessage"] != null)
-    {
-        <script>
-                    alert("@TempData["AlertMessage"]");
-        </script>
-    }
 }
-<link href="~/Content/CSS/EmployeeDetails.css" rel="stylesheet" />
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<link href="~/Content/CSS/GetNewUserPage.css" rel="stylesheet" />
+<script src="~/Scripts/JavaScript/GetNewUser.js"></script>
 
-
-<h3 class="emp-head"> Employee details</h3>
-@*Employee details table content*@
+<h3 id="headline"> New registered employees </h3>
 <div class="table">
     <table class="table-content">
         <thead>
@@ -59,9 +51,13 @@
                 <th>
                     @Html.DisplayNameFor(model => model.UserName)
                 </th>
-                <th></th>
+                <th>
+                    @Html.DisplayNameFor(model => model.AdminStatus)
+                </th>
+                <th id="btn"></th>
             </tr>
         </thead>
+
 
         @foreach (var item in Model)
         {
@@ -105,16 +101,16 @@
                 <td>
                     @Html.DisplayFor(modelItem => item.UserName)
                 </td>
-                <td id="links">
-                    @*<a href="@Url.Action("EditDetails", "Admin", new { id = item.EmployeeID })">
-                        <i class="fa-solid fa-pen-to-square"></i>
-                    </a>*@
-                    <a href="@Url.Action("DeleteDetails", "Admin", new { id = item.EmployeeID })">
-                        <i class="fa fa-trash"></i>
-                    </a>
+                <td>
+                    @Html.DisplayFor(modelItem => item.AdminStatus)
+                </td>
+                <td id="btn" >
+                    @Html.ActionLink("Approved", "Approved", new { id = item.EmployeeID }, new { @class = "confirm-link" }) |
+                    @Html.ActionLink("Rejected ", " Rejected", new { id = item.EmployeeID }, new { @class = "confirm-link" })
                 </td>
             </tr>
         }
 
     </table>
 </div>
+

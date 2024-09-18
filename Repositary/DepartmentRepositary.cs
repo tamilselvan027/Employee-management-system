@@ -42,5 +42,63 @@ namespace Employee_Management_System.Repositary
                     });
             return reglist;
         }
+
+        // Edit for add department
+        public bool AddDepartments(Departments departments)
+        {
+            Connection();
+            SqlCommand command = new SqlCommand("SPI_AddDepartment", connect);
+            command.CommandType = CommandType.StoredProcedure;
+            command.Parameters.AddWithValue("@DepartmentName", departments.DepartmentName);
+            command.Parameters.AddWithValue("@DepartmentHead", departments.DepartmentHead);
+
+            connect.Open();
+            int i = command.ExecuteNonQuery();
+            connect.Close();
+            if (i >= 1)
+            {
+                return true;
+            }
+            else { return false; }
+        }
+
+        // Edit for department -- in admin side
+        public bool EditDepartmentDetails(Departments departments)
+        {
+            Connection();
+            SqlCommand command = new SqlCommand("SPU_UpdateDepartmentDetails", connect);
+            command.CommandType = CommandType.StoredProcedure;
+
+            command.Parameters.AddWithValue("@DepartmentID", departments.DepartmentID);
+            command.Parameters.AddWithValue("@DepartmentName", departments.DepartmentName);
+            command.Parameters.AddWithValue("@DepartmentHead", departments.DepartmentHead);
+
+
+            connect.Open();
+            int i = command.ExecuteNonQuery();
+            connect.Close();
+            if (i >= 1)
+            {
+                return true;
+            }
+            else { return false; }
+        }
+
+        public bool DeleteDepartment(int id)
+        {
+            Connection();
+            SqlCommand command = new SqlCommand("SPD_DeleteDepartment", connect);
+            command.CommandType = CommandType.StoredProcedure;
+            command.Parameters.AddWithValue("@DepartmentID", id);
+
+            connect.Open();
+            int i = command.ExecuteNonQuery();
+            connect.Close();
+            if (i >= 1)
+            {
+                return true;
+            }
+            else { return false; }
+        }
     }
 }
