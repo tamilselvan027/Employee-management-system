@@ -8,8 +8,16 @@ using System.Web.Mvc;
 
 namespace Employee_Management_System.Controllers
 {
+    [Authorize(Roles = "admin")]
     public class AdminController : Controller
     {
+
+        [HttpGet]
+        public ActionResult AdminHome()
+        {
+            return View();
+        }
+
         //This for employee details page action link
         // GET Details
         [HttpGet]

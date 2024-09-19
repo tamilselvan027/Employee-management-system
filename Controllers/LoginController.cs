@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using System.Web.Security;
 
 namespace Employee_Management_System.Controllers
 {
@@ -30,11 +31,23 @@ namespace Employee_Management_System.Controllers
                 Session["EmployeeID"] = login.EmployeeID; // save employeeid in session
                 Session["Username"] = login.Username; // save user name in session
                 Session["DepartmentName"] = login.DepartmentName; // save user name in session
+                string username = login.Username;
+
+                FormsAuthentication.SetAuthCookie(username, false);
+                if (!Roles.RoleExists(redirct))
+                {
+                    Roles.CreateRole(redirct);
+                }
+                if (!Roles.IsUserInRole(username, redirct))
+                {
+                    
+                    Roles.AddUserToRole(username, redirct);
+                }
 
                 if (redirct == "admin")
                 {
                     ViewBag.AlertMsg = "Login successfully";
-                    return RedirectToAction("GetDepartments", "Admin");
+                    return RedirectToAction("AdminHome", "Admin");
                 }
                 else if (redirct == "user")
                 {
@@ -58,6 +71,7 @@ namespace Employee_Management_System.Controllers
         {
             Session.Clear();
             Session.Abandon();
+            FormsAuthentication.SignOut();
             return RedirectToAction("Index", "Home");
         }
     }

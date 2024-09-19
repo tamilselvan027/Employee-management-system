@@ -7,6 +7,7 @@ using System.Web.Mvc;
 
 namespace Employee_Management_System.Controllers
 {
+    [Authorize(Roles = "user")]
     public class DepartmentsController : Controller
     {
         public ActionResult GetDepartments()

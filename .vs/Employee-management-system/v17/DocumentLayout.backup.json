@@ -3,32 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\Admin\\Desktop\\Employee-management-system\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F0AA0286-6FBC-4394-A7DD-4621B64D15E1}|Employee-Management-System.csproj|c:\\users\\admin\\desktop\\employee-management-system\\scripts\\javascript\\registrationform.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{F0AA0286-6FBC-4394-A7DD-4621B64D15E1}|Employee-Management-System.csproj|solutionrelative:scripts\\javascript\\registrationform.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{F0AA0286-6FBC-4394-A7DD-4621B64D15E1}|Employee-Management-System.csproj|c:\\users\\admin\\desktop\\employee-management-system\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{F0AA0286-6FBC-4394-A7DD-4621B64D15E1}|Employee-Management-System.csproj|solutionrelative:web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F0AA0286-6FBC-4394-A7DD-4621B64D15E1}|Employee-Management-System.csproj|c:\\users\\admin\\desktop\\employee-management-system\\views\\registration\\addregistrationpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F0AA0286-6FBC-4394-A7DD-4621B64D15E1}|Employee-Management-System.csproj|solutionrelative:views\\registration\\addregistrationpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{F0AA0286-6FBC-4394-A7DD-4621B64D15E1}|Employee-Management-System.csproj|c:\\users\\admin\\desktop\\employee-management-system\\controllers\\leavecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0AA0286-6FBC-4394-A7DD-4621B64D15E1}|Employee-Management-System.csproj|solutionrelative:controllers\\leavecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F0AA0286-6FBC-4394-A7DD-4621B64D15E1}|Employee-Management-System.csproj|c:\\users\\admin\\desktop\\employee-management-system\\views\\leave\\leavepage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F0AA0286-6FBC-4394-A7DD-4621B64D15E1}|Employee-Management-System.csproj|solutionrelative:views\\leave\\leavepage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{F0AA0286-6FBC-4394-A7DD-4621B64D15E1}|Employee-Management-System.csproj|c:\\users\\admin\\desktop\\employee-management-system\\controllers\\employeedetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0AA0286-6FBC-4394-A7DD-4621B64D15E1}|Employee-Management-System.csproj|solutionrelative:controllers\\employeedetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F0AA0286-6FBC-4394-A7DD-4621B64D15E1}|Employee-Management-System.csproj|c:\\users\\admin\\desktop\\employee-management-system\\content\\json\\state.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{F0AA0286-6FBC-4394-A7DD-4621B64D15E1}|Employee-Management-System.csproj|solutionrelative:content\\json\\state.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{F0AA0286-6FBC-4394-A7DD-4621B64D15E1}|Employee-Management-System.csproj|c:\\users\\admin\\desktop\\employee-management-system\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0AA0286-6FBC-4394-A7DD-4621B64D15E1}|Employee-Management-System.csproj|solutionrelative:controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F0AA0286-6FBC-4394-A7DD-4621B64D15E1}|Employee-Management-System.csproj|c:\\users\\admin\\desktop\\employee-management-system\\scripts\\javascript\\loginform.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{F0AA0286-6FBC-4394-A7DD-4621B64D15E1}|Employee-Management-System.csproj|solutionrelative:scripts\\javascript\\loginform.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{F0AA0286-6FBC-4394-A7DD-4621B64D15E1}|Employee-Management-System.csproj|c:\\users\\admin\\desktop\\employee-management-system\\controllers\\departmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0AA0286-6FBC-4394-A7DD-4621B64D15E1}|Employee-Management-System.csproj|solutionrelative:controllers\\departmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F0AA0286-6FBC-4394-A7DD-4621B64D15E1}|Employee-Management-System.csproj|c:\\users\\admin\\desktop\\employee-management-system\\scripts\\javascript\\leaveform.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{F0AA0286-6FBC-4394-A7DD-4621B64D15E1}|Employee-Management-System.csproj|solutionrelative:scripts\\javascript\\leaveform.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{F0AA0286-6FBC-4394-A7DD-4621B64D15E1}|Employee-Management-System.csproj|c:\\users\\admin\\desktop\\employee-management-system\\controllers\\adminleavecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0AA0286-6FBC-4394-A7DD-4621B64D15E1}|Employee-Management-System.csproj|solutionrelative:controllers\\adminleavecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F0AA0286-6FBC-4394-A7DD-4621B64D15E1}|Employee-Management-System.csproj|c:\\users\\admin\\desktop\\employee-management-system\\content\\css\\leavepage.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{F0AA0286-6FBC-4394-A7DD-4621B64D15E1}|Employee-Management-System.csproj|solutionrelative:content\\css\\leavepage.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{F0AA0286-6FBC-4394-A7DD-4621B64D15E1}|Employee-Management-System.csproj|c:\\users\\admin\\desktop\\employee-management-system\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0AA0286-6FBC-4394-A7DD-4621B64D15E1}|Employee-Management-System.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0AA0286-6FBC-4394-A7DD-4621B64D15E1}|Employee-Management-System.csproj|c:\\users\\admin\\desktop\\employee-management-system\\controllers\\adminapprovedstatuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0AA0286-6FBC-4394-A7DD-4621B64D15E1}|Employee-Management-System.csproj|solutionrelative:controllers\\adminapprovedstatuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0AA0286-6FBC-4394-A7DD-4621B64D15E1}|Employee-Management-System.csproj|c:\\users\\admin\\desktop\\employee-management-system\\repositary\\loginrepositary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0AA0286-6FBC-4394-A7DD-4621B64D15E1}|Employee-Management-System.csproj|solutionrelative:repositary\\loginrepositary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,98 +46,127 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "LeaveForm.js",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Employee-management-system\\Scripts\\JavaScript\\LeaveForm.js",
-              "RelativeDocumentMoniker": "Scripts\\JavaScript\\LeaveForm.js",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\Employee-management-system\\Scripts\\JavaScript\\LeaveForm.js",
-              "RelativeToolTip": "Scripts\\JavaScript\\LeaveForm.js",
-              "ViewState": "AgIAAEEAAAAAAAAAAAAIwFcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-09-18T09:35:23.67Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "RegistrationForm.js",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Employee-management-system\\Scripts\\JavaScript\\RegistrationForm.js",
-              "RelativeDocumentMoniker": "Scripts\\JavaScript\\RegistrationForm.js",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\Employee-management-system\\Scripts\\JavaScript\\RegistrationForm.js",
-              "RelativeToolTip": "Scripts\\JavaScript\\RegistrationForm.js",
-              "ViewState": "AgIAAJYAAAAAAAAAAAAmwJYAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-09-18T11:32:12.026Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AddRegistrationPage.cshtml",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Employee-management-system\\Views\\Registration\\AddRegistrationPage.cshtml",
-              "RelativeDocumentMoniker": "Views\\Registration\\AddRegistrationPage.cshtml",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\Employee-management-system\\Views\\Registration\\AddRegistrationPage.cshtml",
-              "RelativeToolTip": "Views\\Registration\\AddRegistrationPage.cshtml",
-              "ViewState": "AgIAADQAAAAAAAAAAAAAAD4AAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-18T11:33:46.333Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "state.json",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Employee-management-system\\Content\\JSON\\state.json",
-              "RelativeDocumentMoniker": "Content\\JSON\\state.json",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\Employee-management-system\\Content\\JSON\\state.json",
-              "RelativeToolTip": "Content\\JSON\\state.json",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAAADoAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-09-18T11:02:21.774Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "LeavePage.css",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Employee-management-system\\Content\\CSS\\LeavePage.css",
-              "RelativeDocumentMoniker": "Content\\CSS\\LeavePage.css",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\Employee-management-system\\Content\\CSS\\LeavePage.css",
-              "RelativeToolTip": "Content\\CSS\\LeavePage.css",
-              "ViewState": "AgIAAEAAAAAAAAAAAAAAAEwAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-09-18T10:48:23.284Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "LoginForm.js",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Employee-management-system\\Scripts\\JavaScript\\LoginForm.js",
-              "RelativeDocumentMoniker": "Scripts\\JavaScript\\LoginForm.js",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\Employee-management-system\\Scripts\\JavaScript\\LoginForm.js",
-              "RelativeToolTip": "Scripts\\JavaScript\\LoginForm.js",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-09-18T10:21:25.866Z",
+              "Title": "DepartmentsController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Employee-management-system\\Controllers\\DepartmentsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DepartmentsController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Employee-management-system\\Controllers\\DepartmentsController.cs",
+              "RelativeToolTip": "Controllers\\DepartmentsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T14:14:12.496Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "LeavePage.cshtml",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Employee-management-system\\Views\\Leave\\LeavePage.cshtml",
-              "RelativeDocumentMoniker": "Views\\Leave\\LeavePage.cshtml",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\Employee-management-system\\Views\\Leave\\LeavePage.cshtml",
-              "RelativeToolTip": "Views\\Leave\\LeavePage.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAEAAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-18T09:37:09.82Z",
+              "Title": "EmployeeDetailsController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Employee-management-system\\Controllers\\EmployeeDetailsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EmployeeDetailsController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Employee-management-system\\Controllers\\EmployeeDetailsController.cs",
+              "RelativeToolTip": "Controllers\\EmployeeDetailsController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAwAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T14:15:36.916Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LeaveController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Employee-management-system\\Controllers\\LeaveController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LeaveController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Employee-management-system\\Controllers\\LeaveController.cs",
+              "RelativeToolTip": "Controllers\\LeaveController.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAUwAoAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T14:16:13.725Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Employee-management-system\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Employee-management-system\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "Controllers\\LoginController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T13:57:30.808Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Employee-management-system\\Web.config",
+              "RelativeDocumentMoniker": "Web.config",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Employee-management-system\\Web.config",
+              "RelativeToolTip": "Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-09-18T13:58:06.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AdminLeaveController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Employee-management-system\\Controllers\\AdminLeaveController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminLeaveController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Employee-management-system\\Controllers\\AdminLeaveController.cs",
+              "RelativeToolTip": "Controllers\\AdminLeaveController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T14:13:51.692Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Employee-management-system\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Employee-management-system\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Controllers\\AdminController.cs",
+              "ViewState": "AgIAAHcAAAAAAAAAAAAAwAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T14:11:58.569Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AdminApprovedStatusController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Employee-management-system\\Controllers\\AdminApprovedStatusController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminApprovedStatusController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Employee-management-system\\Controllers\\AdminApprovedStatusController.cs",
+              "RelativeToolTip": "Controllers\\AdminApprovedStatusController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T14:10:21.284Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LoginRepositary.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Employee-management-system\\Repositary\\LoginRepositary.cs",
+              "RelativeDocumentMoniker": "Repositary\\LoginRepositary.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Employee-management-system\\Repositary\\LoginRepositary.cs",
+              "RelativeToolTip": "Repositary\\LoginRepositary.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T14:31:22.126Z",
               "EditorCaption": ""
             }
           ]

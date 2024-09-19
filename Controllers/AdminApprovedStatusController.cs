@@ -7,6 +7,7 @@ using System.Web.Mvc;
 
 namespace Employee_Management_System.Controllers
 {
+    [Authorize(Roles = "admin")]
     public class AdminApprovedStatusController : Controller
     {
         // GET new user Details

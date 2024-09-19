@@ -8,6 +8,7 @@ using System.Web.Mvc;
 
 namespace Employee_Management_System.Controllers
 {
+    [Authorize(Roles = "admin")]
     public class AdminLeaveController : Controller
     {
         //GET leave applied details for admin page

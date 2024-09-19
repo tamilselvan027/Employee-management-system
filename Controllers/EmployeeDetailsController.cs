@@ -5,9 +5,11 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using Employee_Management_System.Models;
+using System.Web.Security;
 
 namespace Employee_Management_System.Controllers
 {
+    [Authorize(Roles = "user")]
     public class EmployeeDetailsController : Controller
     {
         // GET Details
