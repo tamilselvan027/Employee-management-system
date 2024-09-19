@@ -3,44 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Admin\\Desktop\\Employee-management-system\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F0AA0286-6FBC-4394-A7DD-4621B64D15E1}|Employee-Management-System.csproj|c:\\users\\admin\\desktop\\employee-management-system\\content\\css\\adminleavepage.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{F0AA0286-6FBC-4394-A7DD-4621B64D15E1}|Employee-Management-System.csproj|solutionrelative:content\\css\\adminleavepage.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{F0AA0286-6FBC-4394-A7DD-4621B64D15E1}|Employee-Management-System.csproj|c:\\users\\admin\\desktop\\employee-management-system\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0AA0286-6FBC-4394-A7DD-4621B64D15E1}|Employee-Management-System.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F0AA0286-6FBC-4394-A7DD-4621B64D15E1}|Employee-Management-System.csproj|c:\\users\\admin\\desktop\\employee-management-system\\content\\css\\getnewuserpage.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{F0AA0286-6FBC-4394-A7DD-4621B64D15E1}|Employee-Management-System.csproj|solutionrelative:content\\css\\getnewuserpage.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{F0AA0286-6FBC-4394-A7DD-4621B64D15E1}|Employee-Management-System.csproj|c:\\users\\admin\\desktop\\employee-management-system\\repositary\\departmentrepositary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0AA0286-6FBC-4394-A7DD-4621B64D15E1}|Employee-Management-System.csproj|solutionrelative:repositary\\departmentrepositary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F0AA0286-6FBC-4394-A7DD-4621B64D15E1}|Employee-Management-System.csproj|c:\\users\\admin\\desktop\\employee-management-system\\content\\css\\employeedetails.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{F0AA0286-6FBC-4394-A7DD-4621B64D15E1}|Employee-Management-System.csproj|solutionrelative:content\\css\\employeedetails.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{F0AA0286-6FBC-4394-A7DD-4621B64D15E1}|Employee-Management-System.csproj|c:\\users\\admin\\desktop\\employee-management-system\\views\\admin\\getdepartments.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F0AA0286-6FBC-4394-A7DD-4621B64D15E1}|Employee-Management-System.csproj|solutionrelative:views\\admin\\getdepartments.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F0AA0286-6FBC-4394-A7DD-4621B64D15E1}|Employee-Management-System.csproj|c:\\users\\admin\\desktop\\employee-management-system\\views\\admin\\getalldetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F0AA0286-6FBC-4394-A7DD-4621B64D15E1}|Employee-Management-System.csproj|solutionrelative:views\\admin\\getalldetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{F0AA0286-6FBC-4394-A7DD-4621B64D15E1}|Employee-Management-System.csproj|c:\\users\\admin\\desktop\\employee-management-system\\views\\admin\\editdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F0AA0286-6FBC-4394-A7DD-4621B64D15E1}|Employee-Management-System.csproj|solutionrelative:views\\admin\\editdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F0AA0286-6FBC-4394-A7DD-4621B64D15E1}|Employee-Management-System.csproj|c:\\users\\admin\\desktop\\employee-management-system\\content\\css\\departmentpage.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{F0AA0286-6FBC-4394-A7DD-4621B64D15E1}|Employee-Management-System.csproj|solutionrelative:content\\css\\departmentpage.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F0AA0286-6FBC-4394-A7DD-4621B64D15E1}|Employee-Management-System.csproj|c:\\users\\admin\\desktop\\employee-management-system\\content\\css\\getleavedetailspage.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{F0AA0286-6FBC-4394-A7DD-4621B64D15E1}|Employee-Management-System.csproj|solutionrelative:content\\css\\getleavedetailspage.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F0AA0286-6FBC-4394-A7DD-4621B64D15E1}|Employee-Management-System.csproj|c:\\users\\admin\\desktop\\employee-management-system\\content\\css\\leavepage.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{F0AA0286-6FBC-4394-A7DD-4621B64D15E1}|Employee-Management-System.csproj|solutionrelative:content\\css\\leavepage.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F0AA0286-6FBC-4394-A7DD-4621B64D15E1}|Employee-Management-System.csproj|c:\\users\\admin\\desktop\\employee-management-system\\content\\css\\loginform.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{F0AA0286-6FBC-4394-A7DD-4621B64D15E1}|Employee-Management-System.csproj|solutionrelative:content\\css\\loginform.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F0AA0286-6FBC-4394-A7DD-4621B64D15E1}|Employee-Management-System.csproj|c:\\users\\admin\\desktop\\employee-management-system\\content\\css\\registrationform.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{F0AA0286-6FBC-4394-A7DD-4621B64D15E1}|Employee-Management-System.csproj|solutionrelative:content\\css\\registrationform.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F0AA0286-6FBC-4394-A7DD-4621B64D15E1}|Employee-Management-System.csproj|c:\\users\\admin\\desktop\\employee-management-system\\views\\registration\\addregistrationpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F0AA0286-6FBC-4394-A7DD-4621B64D15E1}|Employee-Management-System.csproj|solutionrelative:views\\registration\\addregistrationpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{F0AA0286-6FBC-4394-A7DD-4621B64D15E1}|Employee-Management-System.csproj|c:\\users\\admin\\desktop\\employee-management-system\\controllers\\adminapprovedstatuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0AA0286-6FBC-4394-A7DD-4621B64D15E1}|Employee-Management-System.csproj|solutionrelative:controllers\\adminapprovedstatuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,136 +30,76 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AdminLeavePage.css",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Employee-management-system\\Content\\CSS\\AdminLeavePage.css",
-              "RelativeDocumentMoniker": "Content\\CSS\\AdminLeavePage.css",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\Employee-management-system\\Content\\CSS\\AdminLeavePage.css",
-              "RelativeToolTip": "Content\\CSS\\AdminLeavePage.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-09-19T05:53:12.717Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "GetNewUserPage.css",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Employee-management-system\\Content\\CSS\\GetNewUserPage.css",
-              "RelativeDocumentMoniker": "Content\\CSS\\GetNewUserPage.css",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\Employee-management-system\\Content\\CSS\\GetNewUserPage.css",
-              "RelativeToolTip": "Content\\CSS\\GetNewUserPage.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-09-19T05:52:03.512Z",
+              "DocumentIndex": 3,
+              "Title": "EditDetails.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Employee-management-system\\Views\\Admin\\EditDetails.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\EditDetails.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Employee-management-system\\Views\\Admin\\EditDetails.cshtml",
+              "RelativeToolTip": "Views\\Admin\\EditDetails.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAADoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-19T10:23:39.719Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "EmployeeDetails.css",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Employee-management-system\\Content\\CSS\\EmployeeDetails.css",
-              "RelativeDocumentMoniker": "Content\\CSS\\EmployeeDetails.css",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\Employee-management-system\\Content\\CSS\\EmployeeDetails.css",
-              "RelativeToolTip": "Content\\CSS\\EmployeeDetails.css",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAADoAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-09-19T05:46:16.042Z",
+              "Title": "GetDepartments.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Employee-management-system\\Views\\Admin\\GetDepartments.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\GetDepartments.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Employee-management-system\\Views\\Admin\\GetDepartments.cshtml",
+              "RelativeToolTip": "Views\\Admin\\GetDepartments.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-19T10:55:06.107Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DepartmentRepositary.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Employee-management-system\\Repositary\\DepartmentRepositary.cs",
+              "RelativeDocumentMoniker": "Repositary\\DepartmentRepositary.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Employee-management-system\\Repositary\\DepartmentRepositary.cs",
+              "RelativeToolTip": "Repositary\\DepartmentRepositary.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAcwGAAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T10:26:48.673Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "GetAllDetails.cshtml",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Employee-management-system\\Views\\Admin\\GetAllDetails.cshtml",
-              "RelativeDocumentMoniker": "Views\\Admin\\GetAllDetails.cshtml",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\Employee-management-system\\Views\\Admin\\GetAllDetails.cshtml",
-              "RelativeToolTip": "Views\\Admin\\GetAllDetails.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-19T05:45:59.654Z",
+              "DocumentIndex": 0,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Employee-management-system\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Employee-management-system\\Controllers\\AdminController.cs*",
+              "RelativeToolTip": "Controllers\\AdminController.cs*",
+              "ViewState": "AgIAAHoAAAAAAAAAAAAcwH0AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T10:25:49.794Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "DepartmentPage.css",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Employee-management-system\\Content\\CSS\\DepartmentPage.css",
-              "RelativeDocumentMoniker": "Content\\CSS\\DepartmentPage.css",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\Employee-management-system\\Content\\CSS\\DepartmentPage.css",
-              "RelativeToolTip": "Content\\CSS\\DepartmentPage.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-09-19T05:38:46.915Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "GetLeaveDetailsPage.css",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Employee-management-system\\Content\\CSS\\GetLeaveDetailsPage.css",
-              "RelativeDocumentMoniker": "Content\\CSS\\GetLeaveDetailsPage.css",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\Employee-management-system\\Content\\CSS\\GetLeaveDetailsPage.css",
-              "RelativeToolTip": "Content\\CSS\\GetLeaveDetailsPage.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-09-19T05:35:05.55Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "LeavePage.css",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Employee-management-system\\Content\\CSS\\LeavePage.css",
-              "RelativeDocumentMoniker": "Content\\CSS\\LeavePage.css",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\Employee-management-system\\Content\\CSS\\LeavePage.css",
-              "RelativeToolTip": "Content\\CSS\\LeavePage.css",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-09-19T05:34:27.115Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "AddRegistrationPage.cshtml",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Employee-management-system\\Views\\Registration\\AddRegistrationPage.cshtml",
-              "RelativeDocumentMoniker": "Views\\Registration\\AddRegistrationPage.cshtml",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\Employee-management-system\\Views\\Registration\\AddRegistrationPage.cshtml",
-              "RelativeToolTip": "Views\\Registration\\AddRegistrationPage.cshtml",
-              "ViewState": "AgIAADQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-19T05:21:11.717Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "RegistrationForm.css",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Employee-management-system\\Content\\CSS\\RegistrationForm.css",
-              "RelativeDocumentMoniker": "Content\\CSS\\RegistrationForm.css",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\Employee-management-system\\Content\\CSS\\RegistrationForm.css",
-              "RelativeToolTip": "Content\\CSS\\RegistrationForm.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-09-19T05:14:57.201Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "LoginForm.css",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Employee-management-system\\Content\\CSS\\LoginForm.css",
-              "RelativeDocumentMoniker": "Content\\CSS\\LoginForm.css",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\Employee-management-system\\Content\\CSS\\LoginForm.css",
-              "RelativeToolTip": "Content\\CSS\\LoginForm.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-09-19T05:14:54.228Z",
+              "Title": "AdminApprovedStatusController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Employee-management-system\\Controllers\\AdminApprovedStatusController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminApprovedStatusController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Employee-management-system\\Controllers\\AdminApprovedStatusController.cs",
+              "RelativeToolTip": "Controllers\\AdminApprovedStatusController.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T10:25:40.482Z",
               "EditorCaption": ""
             }
           ]

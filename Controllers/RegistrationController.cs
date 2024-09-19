@@ -52,17 +52,19 @@ namespace Employee_Management_System.Controllers
         }
 
 
-        public SqlConnection connect;
-        public void Connection()
-        {
-            String constr = ConfigurationManager.ConnectionStrings["connectionstr"].ToString();
-            connect = new SqlConnection(constr);
-        }
+        //public SqlConnection connect;
+        //public void Connection()
+        //{
+        //    String constr = ConfigurationManager.ConnectionStrings["connectionstr"].ToString();
+        //    connect = new SqlConnection(constr);
+        //}
 
         public ActionResult GetUserByUsername(string username)
         {
             try
             {
+                String constr = ConfigurationManager.ConnectionStrings["connectionstr"].ToString();
+                SqlConnection connect = new SqlConnection(constr);
                 string Isusername = null;
                 SqlCommand cmd = new SqlCommand("select * from Employees_Details where UserName = @username", connect);
                 cmd.Parameters.AddWithValue("@username", username);
@@ -72,11 +74,12 @@ namespace Employee_Management_System.Controllers
                 {
                     Isusername = (string)reader["UserName"];
                 }
+                connect.Close();
                 return Content(Isusername);
 
             }
             catch (Exception ex) { }
-            connect.Close();
+            
             return null;
         }
 
@@ -84,6 +87,8 @@ namespace Employee_Management_System.Controllers
         {
             try
             {
+                String constr = ConfigurationManager.ConnectionStrings["connectionstr"].ToString();
+                SqlConnection connect = new SqlConnection(constr);
                 string Isusername = null;
                 SqlCommand cmd = new SqlCommand("select * from Employees_Details where Email = @Email", connect);
                 cmd.Parameters.AddWithValue("@Email", email);
@@ -93,11 +98,12 @@ namespace Employee_Management_System.Controllers
                 {
                     Isusername = (string)reader["Email"];
                 }
+                connect.Close();
                 return Content(Isusername);
 
             }
             catch (Exception ex) { }
-            connect.Close();
+            
             return null;
         }
     }

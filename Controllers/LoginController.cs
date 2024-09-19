@@ -21,12 +21,17 @@ namespace Employee_Management_System.Controllers
         // POST: Login
         [HttpPost]
         public ActionResult LoginPage(Login login)
-        
-        {
+        {  
             try
             {
                 LoginRepositary loginRepositary = new LoginRepositary();
                 var redirct = loginRepositary.Verification(login);
+
+                if (redirct == null)
+                {
+                    ModelState.AddModelError("", "Invalid login attempt.");
+                    return View(login);
+                }
 
                 Session["EmployeeID"] = login.EmployeeID; // save employeeid in session
                 Session["Username"] = login.Username; // save user name in session

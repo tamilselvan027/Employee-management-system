@@ -1,0 +1,187 @@
+﻿@model Employee_Management_System.Models.Registration
+
+@{
+    ViewBag.Title = "AddRegistrationPage";
+    Layout = "~/Views/Shared/HomeLayout.cshtml";
+    @*if (TempData["ErrorMessage"] != null)
+        {
+            <script>
+                        alert("@TempData["ErrorMessage"]");
+            </script>
+        }*@
+}
+<script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+<script src="~/Scripts/JavaScript/DisableBackButton.js"></script>
+<script src="~/Scripts/JavaScript/RegistrationForm.js"></script>
+<script src="~/Scripts/JavaScript/jquery-3.7.1.min.js"></script>
+<link href="~/Content/CSS/RegistrationForm.css" rel="stylesheet" />
+
+@using (Html.BeginForm("AddRegistrationPage", "Registration", FormMethod.Post, new { id = "registrationForm" }))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="container-reg">
+        <h2 id="form"> Registration Form </h2>
+        <div class="reg">
+            <div class="form-group">
+                @Html.LabelFor(model => model.FirstName)
+                @Html.TextBox("firstname", "", new { placeholder = "First name", id = "firstname" })
+                <div class="fnameerror" id="errr"></div>
+            </div>
+            <div class="form-group">
+                @Html.LabelFor(model => model.LastName)
+                @Html.TextBox("lastname", null, new { id = "lastname", placeholder = "Last name" })
+                <div class="lnameerror" id="errr"></div>
+            </div>
+            <div class="form-group">
+                @Html.LabelFor(model => model.PhoneNumber)
+                @Html.EditorFor(model => model.PhoneNumber, new { htmlAttributes = new { @id = "phone", @class = "form-control", @type = "number", @placeholder = "Phone number" } })
+                <div class="phoneerror" id="errr"></div>
+            </div>
+            <div class="form-radio row-3">
+                @Html.LabelFor(model => model.Gender)
+                <div class="gender">
+                    @Html.RadioButton("gender", "male", new { id = "male" })
+                    <label for="male">Male</label>
+                    @Html.RadioButton("gender", "female", new { id = "female" })
+                    <label for="female">Female</label>
+                    @Html.RadioButton("gender", "others", new { id = "others" })
+                    <label for="others">Others</label>
+                </div>
+                <div class="gendererror" id="errr"></div>
+            </div>
+            <div class="form-group dob">
+                @Html.LabelFor(model => model.DateOfBirth)
+                @Html.TextBoxFor(model => model.DateOfBirth, "{0:yyyy-MM-dd}", new { @class = "form-control", @id = "date", type = "date" })
+                <div class="doberror" id="errr"></div>
+            </div>
+
+            @*new added*@
+            <div class="form-group">
+                @Html.LabelFor(model => model.State)
+                @*@Html.TextBox("State", null, new { id = "State", type = "text", placeholder = "State" })*@
+                <select id="state" name="State">
+                </select>
+                <div class="stateerror" id="errr"></div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.City)
+                @*@Html.TextBox("City", null, new { id = "City", type = "text", placeholder = "City" })*@
+                <select id="city" name="City">
+                    <option value=""> Choose your city </option>
+                </select>
+                <div class="cityerror" id="errr"></div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.HireDate)
+                @Html.TextBoxFor(model => model.HireDate, "{0:yyyy-MM-dd}", new { @class = "form-control", @id = "hiredate", type = "date" })
+                @*<input type="text" id="date" />*@
+                <div class="hiredateerror" id="errr"></div>
+            </div>
+            <div class="form-group">
+                @Html.LabelFor(model => model.DepartmentName)
+                <select id="departmentname" name="DepartmentName">
+                    <option value="">Department name</option>
+                    @*<option value=""></option>*@
+                    <option value="Human resources">Human resources</option>
+                    <option value="Finance">Finance</option>
+                    <option value="Marketing">Marketing</option>
+                    <option value="Sales">Sales</option>
+                    <option value="Customer service">Customer service</option>
+                    <option value="Information technology">Information technology</option>
+                    <option value=" Product development"> Product development</option>
+                    <option value="Administrative">Administrative</option>
+                    <option value="Training and Development">Training and Development</option>
+                    <option value="Health and Safety">Health and Safety</option>
+                </select>
+                <div class="departmenterror" id="errr"></div>
+            </div>
+            <div class="form-group">
+                @Html.LabelFor(model => model.EmployeeType)
+                <select id="employeetype" name="EmployeeType">
+                    <option value="">Employee type</option>
+                    @*<option value=""></option>*@
+                    <option value="fulltime">Full time</option>
+                    <option value="parttime">Part time</option>
+                </select>
+                <div class="emperror" id="errr"></div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.Email)
+                @Html.TextBox("email", null, new { id = "email", type = "email", placeholder = "Email address" })
+                <div class="emailerror" id="errr"></div>
+            </div>
+            <div class="form-group">
+                @Html.LabelFor(model => model.UserName)
+                @Html.TextBox("username", null, new { id = "username", placeholder = "Username" })
+                <div class="nameerror" id="errr"></div>
+            </div>
+            <div class="form-group">
+                @Html.LabelFor(model => model.Password)
+                @Html.EditorFor(model => model.Password, new { htmlAttributes = new { @class = "form-control", @id = "password", @type = "password", @placeholder = "Password" } })
+                <div class="passerror" id="errr"></div>
+            </div>
+            <div class="form-group">
+                @Html.LabelFor(model => model.ConfirmPassword)
+                @Html.EditorFor(model => model.ConfirmPassword, new { htmlAttributes = new { @class = "form-control", @id = "cpassword", @placeholder = "Password" } })
+                <div class="conerror" id="errr"></div>
+            </div>
+            <div class="btn">
+                <input type="submit" id="submitButton" value="Register" />
+            </div>
+            <div class="singup">
+                <p>Already you have an account ?@Html.ActionLink(" Click here ", "LoginPage", "Login", "", htmlAttributes: new { @id = "action-link" })</p>
+            </div>
+        </div>
+    </div>
+
+}
+<script>
+    $(document).ready(function () {
+        $.ajax({
+            url: 'https://localhost:44323/Registration/State', // URL of the server
+            method: 'GET', // or "POST" for sending data
+            success: function (response) {
+                $('#state').html("<option>Choose state</option>")
+                response.states.map(value => {
+                    $('#state').append("<option>" + value.state + "</option>")
+                });
+            },
+            error: function (xhr, status, error) {
+                // Handle the error
+                console.log(error)
+            }
+        });
+
+
+        $('#state').change(function () {
+            let Statevalue = $(this).val();
+            $("#city").html("<option>Choose city</option>")
+            $.ajax({
+                url: 'https://localhost:44323/Registration/State',
+                method: 'GET',
+                success: function (response) {
+                    response.states.map(value => {
+                        if (value.state == Statevalue) {
+                            value.cities.map(city => {
+                                console.log(city)
+                                $("#city").append("<option>" + city + "</option>")
+                            })
+                        }
+                    });
+                },
+                error: function (xhr, status, error) {
+                    // Handle the error
+                    console.log(error)
+                }
+            });
+        })
+
+    });
+
+</script>
+
+

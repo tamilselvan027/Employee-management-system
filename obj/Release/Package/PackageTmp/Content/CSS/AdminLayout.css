@@ -1,0 +1,142 @@
+﻿/* header section */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+.navigationbar {
+    position: sticky;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background: transparent;
+    background-color: #457b9d;
+    padding-right: 20px;
+}
+
+.logo > img {
+    height: 40px;
+    margin-left: 10px;
+}
+
+.navlist {
+    display: flex;
+    margin-right: 10px;
+}
+
+    .navlist a {
+        color: white;
+        margin-left: 60px;
+        font-size: 16px;
+        font-weight: 600;
+        border-bottom: 2px solid transparent;
+        transition: all .55s ease;
+    }
+
+        .navlist a:hover {
+            border-bottom: 2px solid white;
+        }
+/* footer section */
+footer {
+    position: fixed;
+    bottom: 0;
+    background: #457b9d;
+    padding-top: 15px;
+    width: 100%;
+}
+
+.footer-container {
+    width: 1140px;
+    margin-left: 120px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-content {
+    width: 33.3%;
+}
+
+div.footer-content > h3 {
+    font-size: 22px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.footer-content p {
+    font-size: 14px;
+    width: 100%;
+    margin: auto;
+    padding: 7px;
+}
+
+.footer-content ul {
+    text-align: center;
+}
+
+.footer-list {
+    padding: 0;
+}
+
+    .footer-list li {
+        width: auto;
+        text-align: center;
+        list-style-type: none;
+        padding: 7px;
+        position: relative;
+    }
+
+        .footer-list li::before {
+            content: '';
+            position: absolute;
+            transform: translate(-50%,-50%);
+            left: 50%;
+            top: 100%;
+            width: 0;
+            height: 2px;
+            background: #f18930;
+            transition-duration: .5s;
+        }
+
+        .footer-list li:hover::before {
+            width: 70px;
+        }
+
+.social-icons {
+    text-align: center;
+    padding: 0;
+}
+
+    .social-icons li {
+        display: inline-block;
+        text-align: center;
+        padding: 5px;
+    }
+
+    .social-icons i {
+        color: white;
+        font-size: 25px;
+    }
+
+        .social-icons i:hover {
+            color: #f18930;
+        }
+
+.bottom-bar {
+    background: #f18930;
+    text-align: center;
+    padding: 4px 0;
+    margin-top: 10px;
+}
+
+.bottom-bar {
+    color: #343434;
+}

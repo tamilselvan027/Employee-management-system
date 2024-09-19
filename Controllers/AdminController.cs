@@ -137,7 +137,9 @@ namespace Employee_Management_System.Controllers
             {
                 TempData["ErrorMessage"] = "An unexpected error occurred: " + error.Message;
             }
-            return View();
+            //return View();
+            TempData["ErrorMessage"] = "This department you can't delete. because, In this department employees are there";
+            return RedirectToAction("GetDepartments");
         }
     }
 }

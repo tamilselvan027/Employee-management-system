@@ -105,8 +105,8 @@
                     @Html.DisplayFor(modelItem => item.AdminStatus)
                 </td>
                 <td id="btn" >
-                    @Html.ActionLink("Approved", "Approved", new { id = item.EmployeeID }, new { @class = "confirm-link" }) |
-                    @Html.ActionLink("Rejected ", " Rejected", new { id = item.EmployeeID }, new { @class = "confirm-link" })
+                    @Html.ActionLink("Approve", "Approved", new { id = item.EmployeeID }, new { @class = "confirm-link" }) |
+                    @Html.ActionLink("Reject ", " Rejected", new { id = item.EmployeeID }, new { @class = "confirm-link" })
                 </td>
             </tr>
         }

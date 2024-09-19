@@ -5,7 +5,6 @@ using System.Web;
 using System.Web.Mvc;
 using System.Web.Optimization;
 using System.Web.Routing;
-using Employee_Management_System.App_Start;
 
 namespace Employee_Management_System
 {
@@ -17,8 +16,6 @@ namespace Employee_Management_System
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
-            RoleConfig roleConfig = new RoleConfig();
-            roleConfig.Initialize();
         }
     }
 }

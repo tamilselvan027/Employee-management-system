@@ -1,7 +1,44 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Admin\\Desktop\\Employee-management-system\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F0AA0286-6FBC-4394-A7DD-4621B64D15E1}|Employee-Management-System.csproj|c:\\users\\admin\\desktop\\employee-management-system\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0AA0286-6FBC-4394-A7DD-4621B64D15E1}|Employee-Management-System.csproj|solutionrelative:controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0AA0286-6FBC-4394-A7DD-4621B64D15E1}|Employee-Management-System.csproj|c:\\users\\admin\\desktop\\employee-management-system\\views\\adminapprovedstatus\\getnewuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F0AA0286-6FBC-4394-A7DD-4621B64D15E1}|Employee-Management-System.csproj|solutionrelative:views\\adminapprovedstatus\\getnewuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0AA0286-6FBC-4394-A7DD-4621B64D15E1}|Employee-Management-System.csproj|c:\\users\\admin\\desktop\\employee-management-system\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0AA0286-6FBC-4394-A7DD-4621B64D15E1}|Employee-Management-System.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0AA0286-6FBC-4394-A7DD-4621B64D15E1}|Employee-Management-System.csproj|c:\\users\\admin\\desktop\\employee-management-system\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0AA0286-6FBC-4394-A7DD-4621B64D15E1}|Employee-Management-System.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0AA0286-6FBC-4394-A7DD-4621B64D15E1}|Employee-Management-System.csproj|c:\\users\\admin\\desktop\\employee-management-system\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{F0AA0286-6FBC-4394-A7DD-4621B64D15E1}|Employee-Management-System.csproj|solutionrelative:web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0AA0286-6FBC-4394-A7DD-4621B64D15E1}|Employee-Management-System.csproj|c:\\users\\admin\\desktop\\employee-management-system\\repositary\\departmentrepositary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0AA0286-6FBC-4394-A7DD-4621B64D15E1}|Employee-Management-System.csproj|solutionrelative:repositary\\departmentrepositary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0AA0286-6FBC-4394-A7DD-4621B64D15E1}|Employee-Management-System.csproj|c:\\users\\admin\\desktop\\employee-management-system\\views\\admin\\getdepartments.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F0AA0286-6FBC-4394-A7DD-4621B64D15E1}|Employee-Management-System.csproj|solutionrelative:views\\admin\\getdepartments.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0AA0286-6FBC-4394-A7DD-4621B64D15E1}|Employee-Management-System.csproj|c:\\users\\admin\\desktop\\employee-management-system\\views\\admin\\editdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F0AA0286-6FBC-4394-A7DD-4621B64D15E1}|Employee-Management-System.csproj|solutionrelative:views\\admin\\editdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0AA0286-6FBC-4394-A7DD-4621B64D15E1}|Employee-Management-System.csproj|c:\\users\\admin\\desktop\\employee-management-system\\controllers\\adminapprovedstatuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0AA0286-6FBC-4394-A7DD-4621B64D15E1}|Employee-Management-System.csproj|solutionrelative:controllers\\adminapprovedstatuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +46,129 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EditDetails.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Employee-management-system\\Views\\Admin\\EditDetails.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\EditDetails.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Employee-management-system\\Views\\Admin\\EditDetails.cshtml",
+              "RelativeToolTip": "Views\\Admin\\EditDetails.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAADoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-19T10:23:39.719Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GetNewUser.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Employee-management-system\\Views\\AdminApprovedStatus\\GetNewUser.cshtml",
+              "RelativeDocumentMoniker": "Views\\AdminApprovedStatus\\GetNewUser.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Employee-management-system\\Views\\AdminApprovedStatus\\GetNewUser.cshtml",
+              "RelativeToolTip": "Views\\AdminApprovedStatus\\GetNewUser.cshtml",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAAAGsAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-19T11:25:41.682Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Employee-management-system\\Web.config",
+              "RelativeDocumentMoniker": "Web.config",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Employee-management-system\\Web.config",
+              "RelativeToolTip": "Web.config",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABkAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-09-19T11:09:12.476Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Employee-management-system\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Employee-management-system\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "Controllers\\LoginController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwBsAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T11:06:09.233Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Employee-management-system\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Employee-management-system\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T11:05:57.155Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Employee-management-system\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Employee-management-system\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Controllers\\AdminController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwDIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T10:25:49.794Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DepartmentRepositary.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Employee-management-system\\Repositary\\DepartmentRepositary.cs",
+              "RelativeDocumentMoniker": "Repositary\\DepartmentRepositary.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Employee-management-system\\Repositary\\DepartmentRepositary.cs",
+              "RelativeToolTip": "Repositary\\DepartmentRepositary.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAcwFcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T10:26:48.673Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GetDepartments.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Employee-management-system\\Views\\Admin\\GetDepartments.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\GetDepartments.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Employee-management-system\\Views\\Admin\\GetDepartments.cshtml",
+              "RelativeToolTip": "Views\\Admin\\GetDepartments.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-19T10:55:06.107Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AdminApprovedStatusController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Employee-management-system\\Controllers\\AdminApprovedStatusController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminApprovedStatusController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Employee-management-system\\Controllers\\AdminApprovedStatusController.cs",
+              "RelativeToolTip": "Controllers\\AdminApprovedStatusController.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T10:25:40.482Z",
+              "EditorCaption": ""
             }
           ]
         }
