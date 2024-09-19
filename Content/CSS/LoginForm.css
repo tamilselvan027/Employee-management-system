@@ -2,11 +2,16 @@
     position: relative;
 }
 
+body {
+    background: radial-gradient(circle, #009999 0%, #ccffcc 100%);
+}
+
 form {
     position: relative;
     left: 30vw;
     padding: 25px;
-    background: #76f3fc;
+/*    background: #76f3fc;*/
+    background: linear-gradient(to bottom, #009999 0%, #ffffff 100%);
     margin-top: 100px;
     margin-bottom: 100px;
     max-width: 500px;

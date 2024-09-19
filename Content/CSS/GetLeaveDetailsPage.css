@@ -3,6 +3,9 @@
     width: 80%;
     align-items: center;
 }
+body {
+    background: linear-gradient(to top, #009999 0%, #ffffff 100%);
+}
 .table {
     margin-top: 30px;
     margin-left: 200px;
@@ -12,8 +15,8 @@
     min-height:100vh;
 }
 td, th {
-    border: 1px solid #dddddd;
-    text-align: left;
+    border: 1px solid black;
+    text-align: center;
     padding: 8px;
 }
 

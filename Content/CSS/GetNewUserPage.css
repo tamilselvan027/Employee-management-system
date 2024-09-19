@@ -1,6 +1,9 @@
 ﻿footer {
     position: relative;
 }
+body {
+    background: linear-gradient(to top, #009999 0%, #ffffff 100%);
+}
 
 #headline {
     position: relative;

@@ -1,8 +1,11 @@
 ﻿footer {
     position: relative;
 }
+
+body {
+    background: linear-gradient(to top, #009999 0%, #ffffff 100%);
+}
 .table {
-/*    width: 70%;*/
     margin-top: 40px;
     margin-left: 200px;
     margin-bottom: 35px;

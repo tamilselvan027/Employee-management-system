@@ -2,6 +2,9 @@
     position: relative;
 }
 
+body {
+    background: linear-gradient(to top, #009999 0%, #ffffff 100%);
+}
 .table {
     width: 91%;
     margin: 5px;
@@ -49,6 +52,8 @@ td > a {
     padding-right: 10px;
 }
 
-#links {
+/*#links {
     display: flex;
-}
+    display:block;
+    height:100%;
+}*/

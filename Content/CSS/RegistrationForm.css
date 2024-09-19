@@ -3,12 +3,11 @@
 }
 
 body {
-    background: #96d8ca;
+    background: radial-gradient(circle, #009999 0%, #ccffcc 100%);
 }
 
 .container-reg {
-    background: #76f3fc;
-    background-color: whitesmoke;
+    background: linear-gradient(to bottom, #009999 0%, #ffffff 100%);
     width: 500px;
     border-radius: 7px;
     color: rgb(0, 0, 0);
