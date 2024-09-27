@@ -1,0 +1,58 @@
+﻿@model Employee_Management_System.Models.Departments
+
+@{
+    ViewBag.Title = "EditDetails";
+    Layout = "~/Views/Shared/AdminLayout.cshtml";
+}
+<link href="~/Content/CSS/EditPageDepartmentAdmin.css" rel="stylesheet" />
+<script src="~/Scripts/JavaScript/EditPageDepartment.js"></script>
+<script src="~/Scripts/JavaScript/DisableBackButton.js"></script>
+
+<div class="edit">
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-horizontal">
+            <h4>Departments</h4>
+            <hr />
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+            <div class="form-group">
+                @Html.LabelFor(model => model.DepartmentID)
+                <div>
+                    @Html.EditorFor(model => model.DepartmentID, new { htmlAttributes = new { @readonly = "readonly" } })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.DepartmentName)
+                <div>
+                    @Html.EditorFor(model => model.DepartmentName, new { htmlAttributes = new { @readonly = "readonly" } })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.DepartmentHead)
+                <div>
+                    @Html.EditorFor(model => model.DepartmentHead, new { htmlAttributes = new { @class = "form-control" } })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.EmployeeCount)
+                <div>
+                    @Html.EditorFor(model => model.EmployeeCount, new { htmlAttributes = new { @readonly = "readonly" } })
+                </div>
+            </div>
+
+            <div class="form-group btngrp">
+                <div class="grp-Save">
+                    <input type="submit" value="Save" class="btn btn-default" />
+                </div>
+                <div class="grp-delete">
+                    @Html.ActionLink("Delete ", "DeleteDepartment", "Admin", new { id = Model.DepartmentID }, new { @class = "confirm-link" })
+                </div>
+            </div>
+        </div>
+    }
+</div>

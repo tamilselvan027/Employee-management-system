@@ -1,0 +1,45 @@
+﻿@model IEnumerable<Employee_Management_System.Models.Departments>
+
+@{
+    ViewBag.Title = "GetDepartments";
+    Layout = "~/Views/Shared/UserLayout.cshtml";
+}
+<link href="~/Content/CSS/DepartmentPage.css" rel="stylesheet" />
+
+
+<div class="table">
+    <table class="table-content">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.DepartmentName)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.DepartmentHead)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.EmployeeCount)
+                </th>
+                
+            </tr>
+        </thead>
+
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DepartmentName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DepartmentHead)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.EmployeeCount)
+                </td>
+            </tr>
+        }
+
+    </table>
+</div>
+

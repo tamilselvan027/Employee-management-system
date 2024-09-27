@@ -1,0 +1,26 @@
+﻿
+@{
+    ViewBag.Title = "AdminHome";
+    Layout = "~/Views/Shared/AdminLayout.cshtml";
+}
+<link href="~/Content/CSS/AdminIndexPage.css" rel="stylesheet" />
+<script src="~/Scripts/JavaScript/IndexPage.js"></script>
+<div class="slideshow-container">
+
+    <div class="mySlides fade">
+        <img src="~/Content/Images/img_admin.jpg" />
+        <div class="text"> 
+            <h4> Welcome to Claysys Technology Admin Panel </h4> <br />
+            <p> At Claysys Technology, we strive to deliver innovative solutions that empower businesses to thrive in the digital age. Our dedicated team is committed to excellence, ensuring that you have the tools and support you need to achieve your goals. </p> <br />
+            <h6> let’s build a brighter future! </h6>
+            <div class="see-btn">
+                @using (Html.BeginForm("GetDepartments", "Admin", FormMethod.Get))
+                {
+                    <button type="submit"> See more !! </button>
+                }
+            </div>
+        </div>
+    </div>
+
+</div>
+

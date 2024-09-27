@@ -1,0 +1,60 @@
+﻿footer {
+    position: relative;
+}
+
+body {
+    background: linear-gradient(to top, #009999 0%, #ffffff 100%);
+}
+.table {
+    margin-top: 40px;
+    margin-left: 200px;
+    margin-bottom: 35px;
+}
+.table-content {
+    width: 70vw;
+    top: 200px;
+    border-collapse: collapse;
+}
+td, th {
+    text-align: left;
+    padding: 8px;
+}
+
+thead {
+    background-color: rgb(93, 93, 211);
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: rgba(39, 36, 36, .1);
+}
+
+tr:hover td {
+    cursor: pointer;
+    color: #0298cf;
+    background-color: aliceblue;
+}
+
+.deptid{
+    display:none;
+}
+
+.add-btn {
+    position: relative;
+    top: 20px;
+    left: 982px;
+}
+
+button {
+    outline: none;
+    border: none;
+    width: 170px;
+    padding: 9px;
+    background-color: rgb(9, 9, 126);
+    border-radius: 5px;
+    color: white;
+}
+
+    .add-btn:hover {
+        opacity: 0.7;
+    }
